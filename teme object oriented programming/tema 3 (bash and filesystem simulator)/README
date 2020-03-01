@@ -1,0 +1,92 @@
+VOICU Alex-Georgian
+
+		TEMA 3 - powerbash
+		
+####		
+	Main.java :
+	- clasa principala care functioneaza ca invoker pentru comenzi si client pentru factory.
+	
+	
+####	
+	CommandsFactory.java :
+	- clasa ce defineste mai multe clase pentru patternul de tip Command si Factory.
+	
+	- CommandFactory prin metoda get command returneaza obiectul command creat prin parsarea liniei de input.
+	
+	- clasele de tip Command[nume functie] codifica toate informatiile necesare pentru rularea ulterioara a comenzii din sistemul de fisiere. Totodata constructorii acestora se ocupa de interpretarea atributelor si parametrilor ce insotesc comanda.
+	
+	
+####	
+	FileSystem.java :
+	- clasa care defineste sistemul de fisiere si functiile de lucru pe acesta.
+	
+	- patternul Singleton impune unicitatea instantei sistemului.
+	
+	- patternul Composite este utilizat prin cele 3 clase interne (AbstractFile, File, Directory) care formeaza arborele sistemului de fisiere.
+	
+	- un set de functii de baza usureaza implementarea celorlalte functii de lucru:
+		- String getAbsolutePathFromFile(AbstractFile file) 
+			>> dat fiind un fisier din sistem, functia returneaza calea absoluta a acestuia urcand pe lantul de parinti ai fisierului respectiv.
+			
+		- String getAbsolutePathFromPath(String path) 
+			>> transforma o cale posibil relativa sau absoluta intr-una absoluta prin interpretarea token-urilor din calea respectiva si tinand cont de directorul curent.
+			
+		- Directory getDirectoryFromAbsolutePath(String path)
+			>> data fiind o cale absoluta returneaza directorul (daca exista) care se gaseste la locatia specificata, parcurgand de la radacina in sus fiecare token al caii.
+			
+		- AbstractFile getDirOrFileFromAbsolutePath(String path)
+			>> asemenea functiei precedente; in plus returneaza si fisiere, nu doar directoare
+			
+	- functiile din cerinta:
+		- list
+			>> rezolva calea catre directorul curent si printeaza numele fiecarui fisier din lista directorului gasit.
+			>> optiunea recursiva duce la utilizarea functei listrec, care procedeaza la fel ca functia principala, in plus putand sa se apeleze recursiv pe directoarele pe care le printeaza.
+			
+		- mkdir (makedir)
+			>> rezolva calea catre locatia specificata
+			>> se cauta duplicate dupa nume
+			>> daca nu exista duplicat se creaza directorul si se apeleaza functia de inserare in lista directorului curent(specificat in cale).
+			
+		- touch (touchfile)
+			>> asemanator lui mkdir
+			
+		- cd (changedir)
+			>> rezolva calea posibil relativa intr-una absoluta
+			>> ia directorul de la calea rezolvata si il seteaza in variabila current_dir a sistemului de fisiere.
+			
+		- pwd (printworkingdir)
+			>> afla calea absoluta a directorului curent
+			
+		- cp (copy)
+			>> afla calea sursei si a destinatiei si creeaza in destinatie configuratia directorului sursa folosind mkdir si touch.
+			>> copyrec este o functie folosita pentru a copia recursiv structura prin parcurgerea in adancime a sursei.
+			
+		- mv (move)
+			>> asemenea lui cp identifica sursa si destinatia
+			>> pentru mutare este suficient sa modificam parintele subarborelui ce trebuie mutat si sa stergem referinta la vechea locatia.
+			
+		- rm (remove)
+			>> gaseste fisierul sau directorul si sterge subarborele prin decuplarea de radacina.
+			>> se verifica daca nu cumva current working directory nu este in subarborele directorului ce trebuie sters.
+			
+		
+####
+	Bonus:
+	
+		- bonus 1:
+			- listgrep si listrecgrep sunt asemanatoare cu list, diferenta fiind faptul ca inainte de a printa un fisier se verifica daca numele respecta patternul regex dat.
+			
+			
+		- bonus 2:
+			- rezolvarea wildcardului se face prin creearea (exponentiala in cel mai rau caz) tuturor cailor posibile care sa respecte patternurile tokenurilor din calea data la intrare.
+		
+			- astfel functiile modificate (liststar, removestar, makedirstar, touchfilestar) primesc mai intai o lista cu toate caile pe care sa actioneze.
+			
+			- caile sunt generate de List<String> getAbsolutePathsFromStarPath(String path) si de void getAbsolutePathsFromStarPathRec(String []relpath, int pos, int max, Directory cr_dir, List<String> paths).
+			
+			- impreuna cu functia de validare a tokenului pe un nume boolean checkValidTokenStar(String toCheck, String pattern).
+			
+			- acestea parcurg calea ce poate fi relativa si absoluta si se apeleaza recursiv atunci cand se intra pe un nivel nou in arborelle de fisiere.
+			
+			- cand se ajunge la capatul unei astfel de cai, se adauga in lista de cai gasite calea catre fisierul ce reprezinta o frunza, sau se intrerupe executia unei astfel de ramuri atunci cand nu se respecta patternul.
+			

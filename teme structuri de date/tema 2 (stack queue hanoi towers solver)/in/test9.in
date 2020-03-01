@@ -1,0 +1,509 @@
+508
+add pink 6
+add turquoise 1
+show green
+add green 3
+add blue 5
+add green 2
+add white 12
+add red 12
+add orange 9
+add red 1
+add brown 6
+add yellow 2
+show green
+add turquoise 5
+add silver 6
+add yellow 8
+show yellow
+add gold 4
+add gray 6
+show purple
+add brown 4
+add azure 4
+add yellow 9
+add white 2
+add brown 5
+add black 6
+add gray 8
+add silver 7
+add azure 2
+add gray 3
+add pink 9
+add orange 4
+add azure 3
+add silver 3
+add black 1
+add turquoise 9
+add brown 1
+add silver 8
+add brown 7
+add purple 8
+show purple
+add red 15
+add red 5
+add yellow 6
+add red 6
+add gold 3
+add brown 2
+show orange
+show orange
+add purple 9
+add blue 6
+add silver 1
+add white 1
+add blue 10
+add green 7
+add purple 4
+add turquoise 7
+add yellow 1
+add red 7
+add blue 11
+add turquoise 6
+add white 8
+show orange
+add green 12
+show purple
+add orange 11
+add brown 3
+add red 13
+add purple 7
+add turquoise 3
+add black 5
+show green
+show green
+add gray 10
+add red 10
+add silver 13
+show blue
+add brown 9
+add azure 13
+add gold 13
+show red
+add green 13
+show red
+add gold 7
+add brown 11
+show green
+add orange 3
+add black 3
+add white 11
+add blue 4
+add blue 2
+show purple
+add purple 10
+add black 11
+add white 3
+add purple 1
+add turquoise 11
+add turquoise 4
+add azure 9
+add silver 5
+show orange
+add orange 12
+add pink 2
+add red 9
+add turquoise 2
+add pink 5
+add yellow 13
+add yellow 5
+add blue 1
+add azure 5
+add turquoise 8
+add orange 7
+add green 4
+add blue 7
+add green 5
+add turquoise 13
+add black 12
+add gold 8
+show yellow
+add silver 2
+add green 1
+add blue 8
+add green 8
+add yellow 14
+add pink 8
+add gray 9
+show green
+show red
+add gray 7
+show yellow
+add turquoise 12
+add pink 1
+add azure 7
+add red 14
+add gold 9
+add white 4
+add purple 2
+show red
+add brown 8
+add purple 6
+add turquoise 10
+add red 8
+add orange 5
+add black 13
+add green 9
+add orange 6
+add brown 10
+add yellow 3
+add azure 10
+add white 5
+add green 10
+add yellow 7
+show blue
+show purple
+add black 2
+add black 4
+add gold 5
+add blue 12
+add purple 11
+add pink 7
+add gray 1
+add white 10
+add black 7
+add pink 3
+show purple
+add blue 13
+add azure 11
+add orange 8
+show pink
+add white 6
+show pink
+add yellow 10
+show yellow
+add orange 2
+add yellow 11
+add red 11
+add azure 14
+add red 4
+add silver 9
+add green 6
+add gold 6
+add silver 10
+add green 15
+add gold 1
+add black 10
+add silver 12
+add blue 9
+add purple 5
+add brown 12
+add pink 10
+show orange
+add gray 11
+add gold 10
+add yellow 12
+add white 7
+add red 16
+add gold 11
+show red
+add azure 8
+show orange
+add brown 13
+add gray 5
+add gold 12
+add purple 3
+add red 3
+add black 8
+add gray 4
+add gray 2
+show blue
+add green 14
+add green 11
+add red 2
+show pink
+add orange 1
+add black 9
+add silver 4
+add orange 10
+add white 9
+show red
+add azure 1
+add gold 2
+add azure 12
+add blue 3
+add azure 6
+add yellow 4
+add silver 11
+add pink 4
+show azure
+show_moves gray 14
+play gold 103
+play orange 305
+show_moves orange 1204
+play turquoise 5
+show_moves turquoise 6374
+play azure 14
+show_moves red 6726
+play brown 209
+show white
+show_moves azure 3
+play yellow 258
+show_moves gray 1
+play blue 5
+show_moves turquoise 1248
+play azure 258
+show_moves turquoise 433
+show silver
+show_moves gray 1
+play pink 1
+play yellow 61
+play yellow 4819
+show white
+play yellow 10062
+play silver 3
+show_moves yellow 20
+play gray 209
+show_moves azure 20
+play red 33
+play white 1268
+show_moves gold 433
+show_moves azure 4
+show_moves green 149
+show_moves black 11
+show_moves orange 272
+play azure 22
+play pink 71
+play turquoise 5727
+show_moves orange 325
+show silver
+show_moves blue 3
+show_moves blue 6374
+play blue 4
+play green 13
+show_moves azure 2260
+play turquoise 3
+show gray
+show_moves gold 6374
+play silver 5
+play azure 61
+play brown 5
+play red 6327
+play red 63
+show_moves red 1239
+play gray 16
+play orange 4
+show_moves white 1
+show_moves gray 61
+show gold
+show gold
+show white
+show_moves yellow 20
+show pink
+show_moves gray 14
+play pink 353
+show_moves gray 3
+show pink
+play azure 10062
+play turquoise 1212
+show_moves azure 155
+show black
+show_moves silver 433
+play red 10
+show_moves yellow 997
+play pink 113
+play brown 1212
+show_moves gray 5
+show_moves silver 11
+show_moves brown 433
+show_moves gray 1942
+show_moves orange 1431
+show_moves red 4
+show_moves gold 111
+show_moves green 53
+play brown 103
+show azure
+play green 851
+show_moves green 25
+play blue 209
+show white
+show_moves azure 20
+play yellow 5
+play turquoise 4
+show_moves azure 997
+show_moves white 1204
+show_moves black 433
+play white 1413
+show_moves gray 6
+play blue 5727
+show turquoise
+show_moves purple 61
+play white 15
+play gold 3
+play white 4
+show_moves yellow 1020
+show gold
+show white
+play turquoise 928
+play azure 4819
+show_moves gold 11
+play blue 103
+play gold 5727
+play orange 1268
+show_moves red 5718
+play black 5
+show_moves pink 732
+show_moves white 693
+show_moves purple 3
+show_moves brown 1248
+show_moves brown 3
+show_moves red 6401
+show gray
+play yellow 14
+play green 27971
+show_moves yellow 4
+show_moves blue 433
+play gray 1
+play gold 1212
+play orange 3
+show_moves brown 11
+play purple 1821
+show_moves azure 4727
+play azure 170
+play silver 209
+show_moves orange 3
+show_moves green 27233
+show_moves yellow 3
+show_moves purple 6
+play blue 928
+play gold 4
+show_moves silver 111
+show_moves red 1087
+show_moves orange 693
+show_moves brown 11
+play green 8
+show_moves white 272
+play brown 4
+play azure 971
+show_moves white 1431
+play purple 209
+show_moves pink 1
+show_moves blue 1248
+show_moves gold 3
+show_moves silver 3
+show silver
+show_moves pink 2
+play white 305
+show white
+play green 502
+show_moves azure 7
+show azure
+show_moves purple 5
+show gray
+show_moves yellow 4727
+show_moves purple 14
+show_moves silver 1248
+play gold 209
+show_moves yellow 6827
+play silver 928
+play orange 496
+play purple 16
+show_moves blue 111
+show_moves black 11
+show_moves turquoise 11
+show_moves turquoise 3
+show_moves silver 11
+show brown
+show gray
+play green 443
+play white 591
+play green 2218
+show_moves red 34959
+show_moves azure 20
+play black 928
+show_moves blue 11
+show_moves black 6374
+show_moves orange 1
+play white 496
+show_moves purple 1942
+show gray
+show gray
+show_moves yellow 7
+show_moves silver 6374
+play red 1
+show_moves yellow 260
+play green 27
+show_moves green 1
+show brown
+play turquoise 209
+play gold 928
+play turquoise 103
+play blue 1212
+show_moves purple 14
+show_moves orange 166
+show_moves white 166
+show_moves green 142
+show_moves yellow 63
+show_moves white 325
+show_moves green 1
+show_moves yellow 20
+show_moves brown 6374
+show turquoise
+play green 1
+play yellow 1
+play yellow 22
+show_moves turquoise 111
+show_moves green 2
+show_moves azure 63
+show brown
+play black 5727
+play green 723
+play red 429
+play red 40423
+play orange 15
+play silver 1212
+play red 2707
+play brown 3
+play orange 1413
+show_moves white 3
+play silver 5727
+show_moves gold 1248
+show_moves purple 1
+show_moves pink 1
+show_moves black 111
+play azure 5
+play black 1212
+show azure
+show_moves azure 6827
+play azure 1
+show_moves red 6
+show_moves gold 11
+play gray 1821
+play red 11488
+play black 3
+play pink 476
+play yellow 971
+play brown 5727
+show_moves turquoise 11
+show pink
+show_moves brown 111
+play black 209
+show_moves black 3
+play green 10
+show_moves azure 260
+play brown 928
+play red 4054
+show_moves yellow 2260
+show_moves yellow 155
+show_moves purple 1
+play yellow 170
+show black
+show_moves azure 1020
+play silver 103
+show black
+play pink 9
+play black 103
+play white 3
+play orange 591
+show_moves green 5161
+play blue 3
+play purple 1
+show_moves blue 11
+show_moves pink 274
+show_moves pink 13
+show_moves black 1248
+show_moves red 9395
+show turquoise
+play silver 4
+play black 4
+play gold 5

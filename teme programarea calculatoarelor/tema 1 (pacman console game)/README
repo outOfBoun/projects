@@ -1,0 +1,71 @@
+// Voicu Alex-Georgian
+
+### TASK 1:
+
+	Pentru a forma triunghiul avem nevoie de o structura de for in for (pentru a parcurge figura atat pe linii cat si pe coloane). For-ul din exterior merge pe inaltime, iar for-urile din interior completeaza linia curenta. 
+	
+	Prima parte a liniei se completeaza cu un numar de spatii corespunzator indicelui "i" al liniei pe care ne aflam, iar restul pana la "N" cu caracterul primit. 
+	
+	Numarul de spatii din prima parte a liniei este egal cu 2*i (o data i pentru spatiere si inca o data i pentru umplere).
+	
+	
+	
+### TASK 2 si TASK 3:
+
+	Structura schematica si functionalitatea main-ului (aici se afla bucla principala a jocului):
+{	
+	- citirea datelor de intrare initiale
+	
+	- afisarea initiala tablei, a jucatorului si a obstacolelor (daca exista)
+	
+	- while (bucla jocului, fiecare parcurgere a while-ului reprezinta o tura) 
+		{
+		- se muta jucatorul, daca se poate, pe pozitia aleasa
+				Variabila "win" va primi valoarea 1 daca jucatorul castiga prin acea mutare.
+		
+		- se verifica daca jucatorul, prin mutarea aleasa, da cumva peste un obstacol (cod 2)
+		
+		- obstacolele mobile se muta inspre jucator (daca este tura la care au dreptul sa se miste)
+		  		Variabila "alterneaza" (tip bool 0/1) specifica acest drept
+		  		
+		- se verifica daca un obstacol mobil da peste jucator (cod 2)
+		
+		- verificarea "win" caz exceptie (variabila win precizeaza daca jucatorul intra pe pozitia
+		  de castig (coltul N,M))
+				> Daca jucatorul castiga fara sa interfereze cu vreun obstacol, running primeste 1. 
+				se va afisa o ultima data tabla - GAME COMPLETED
+				> Daca pe pozitia necesara castigarii jocului se afla un obstacol fix iar jucatorul
+				intra peste el atunci pierde (joc oricum necastigabil) - GAME OVER
+				> Daca un obstacol mobil il prinde din urma pe jucator, acestia avand sa ocupe in
+			    acelasi moment pozitia de castig atunci tot pierde - GAME OVER
+		
+		- afisarea tablei, a jucatorului si a obstacolelor (daca exista obstacole)
+		
+		- alterneaza valoarea variabilei "alterneaza" (cea care da dreptul obstacolelor mobile 
+		  sa se miste)
+		}
+	
+	- interpretarea codului din variabila running si afisarea mesajului final
+}
+	
+	Descrierea functiilor:
+	
+	    -void muta_jucator
+			Primind litera aferenta mutarii jucatorului si coordonatele acestuia, le trimite mai 
+	     departe functiei verif_border care verifica validitatea mutarii.
+			Schimba coordonatele daca totul este in ordine si returneaza codul aferent mutarii facute.
+		
+		-int verif_border
+			Verifica validitatea mutarii si daca sau nu jucatorul a mutat pe pozitia de castig.
+		
+		-char orientare_decod
+			Decodifica codul din variabila orientare_cr, trimis de functia muta_jucator, si
+		returneaza (^, >, v, <) mainului pentru tiparirea jucatorului pe tabla.
+		
+		-void muta_obstacol
+			Muta obstacolele mobile pee pozitia optima. Incearca pozitionarea in toate cele 8
+		directii posibile.
+		
+		-void schimba_min
+			Functie apelata de muta_obstacol pentru formula de minimizare si schimbarea minimului 
+		curent.

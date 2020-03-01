@@ -1,0 +1,16 @@
+mkdir /piatra
+ls
+mkdir /folder_nedemn
+ls
+rm /folder_nedemn
+ls
+touch /fisier_nedemn
+ls
+rm /fisier_nedemn
+ls
+mkdir /folder_nedemn_2
+mkdir /folder_nedemn_2/buna_incercare
+touch /folder_nedemn_2/copilu
+ls -R
+rm /folder_nedemn_2
+ls -R

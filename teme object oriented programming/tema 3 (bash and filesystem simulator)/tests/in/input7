@@ -1,0 +1,15 @@
+mkdir /unu
+mkdir /doi
+mkdir /trei
+mv /doi /unu
+ls
+touch /unu/doi/roma
+touch /unu/doi/atena
+ls -R
+mkdir /unu/doi/patru
+cp /unu/doi /
+ls
+mv /trei /doi/patru
+touch /doi/patru/movie
+cp /doi/patru/movie /unu
+ls -R

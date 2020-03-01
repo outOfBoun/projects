@@ -1,0 +1,60 @@
+1
+2
+3
+4
+mkdir: ..: No such directory
+5
+6
+mkdir: ../../../..: No such directory
+7
+8
+9
+10
+touch: ../dir1: No such directory
+11
+touch: /dir5/..: No such directory
+12
+13
+touch: /dir3/dir_1000: No such directory
+14
+15
+16
+17
+18
+19
+20
+cp: cannot copy /dir1/dir2: Node exists at destination
+21
+22
+23
+24
+cp: cannot copy ../t: No such file or directory
+25
+cp: cannot copy /dir1: Node exists at destination
+26
+27
+28
+29
+mkdir: cannot create directory /copy_dir1/dir1: Node exists
+30
+31
+32
+33
+34
+cp: cannot copy /copy_dir1/dir1/is_sth_here: No such file or directory
+35
+36
+37
+38
+39
+40
+41
+mkdir: /star_wars/the_last_jedi: No such directory
+42
+43
+44
+ls: star_wars/FINN: No such directory
+45
+46
+47
+48

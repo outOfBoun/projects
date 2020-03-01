@@ -1,0 +1,40 @@
+Voicu Alex-Georgian
+
+
+				Tema 2 Paradigme de Programare
+
+
+		Algoritmul pe baza caruia se realizeaza arborele distantelor minime de la nodul root la celelalte este un Dijsktra modificat astfel incat sa poate functiona in modul recursiv al limbajului Prolog.
+
+		Functiile de nivel superior sunt spre sfarsitul programului, ele avand dependinte in sus.
+
+
+		De jos in sus (in fisierul main.pl), predicatele importante sunt urmatoarele:
+
+		Predicatul stp() apeleaza : 
+			- getMin() ce afla nodul root folosind un min heap de prioritati.
+			- improveStepInitial() ce initializeaza valori si apeleaza algoritmul Dijsktra.
+
+		improveStep() :
+			- urmeaza cei N ( = nr noduri - 1 ) pasi in care multimii de noduri inserate deja in arbore (DistList) i se adauga pe rand nodurile nevizitate alese astfel incat sa minimizeze distanta fata de nodul root.
+			- se salveaza muchia de legatura la fiecare pas in TreeEdges.
+
+		getNextBestEdge() :
+			- folosind un PriorityQueue liniar (inserare O(N) si extragere O(1)), predicatul va scoate cel mai bun nod de inserat in arborele minim impreuna cu muchia care a determinat alegerea sa.
+			- informatia extrasa e parsata corespunzator pentru nivelele superioare.
+
+		addNodesEdgesToQueue() :
+			- coada de prioritati este formata trecand prin toate nodurile deja inserate in DistList (nodurile arborelui deja alese) si inserand de la fiecare dintre acestea nodurile inca nevizitate care ar putea sa extinda arborele in sensul minimizarii costului.
+
+		addEdgesToQueue() :
+			- se ocupa de identificarea muchiilor valide ale unui nod (nod din arbore ce insereaza noduri inca nevizitate) si de calcularea distantei catre vecinii sai pentru a-i insera in coada de alegeri posibile la pasul curent.
+
+
+		Multimi:
+			- DistList : multime de noduri din arborele minim ce creste la fiecare pas de extindere.
+			- Nleft : lista de noduri ramase nevizitate (neinserate in arborele de cost minim), ce scade la fiecare pas de iteratie.
+			- TreeEdges : lista de muchii ce au introdus noduri in DistList (deci muchiile arborelui minim).
+
+
+	Observatii:
+	- lipsa de variabile si a posibilitatii de creare a unor referinte catre valori diferite in Prolog (spre deosebire de limbajele iterative) duce la cresterea complexitatii temporale a programului. Astfel, pentru a reduce numarul cautarilor in liste se insereaza cat mai multe informatii corelate intre ele (nod, prioritate, muchie, distanta etc). Acolo unde nu se poate, programul utilizeaza cautari liniare pentru a gasi informatia.

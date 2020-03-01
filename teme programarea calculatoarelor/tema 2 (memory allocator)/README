@@ -1,0 +1,22 @@
+Voicu Alex-Georgian
+
+
+		Alocator de memorie
+
+	Adresa arenei alocate dinamic este memorata intr-un pointer de tip unsigned char arena_p.
+	Pentru a accesa cei 3 indexi de cate 4 octeti din sectiunea de gestiune facem cast pe pointerul arena_p dupa cum urmeaza:
+	fie un bloc indicat de catre uint32_t current_index.
+	-> *(uint32_t*)(arena_p + current_index + 0) pentru indexul urmator al blocului;
+	-> *(uint32_t*)(arena_p + current_index + 4) pentru indexul predecesor al blocului;
+	-> *(uint32_t*)(arena_p + current_index + 8) pentru dimensiunea sectiunii de date a blocului.
+	
+	Comentariile din codul sursa sunt elocvente pentru intelegerea modului de functionare a functiilor implementate.
+	
+	
+		Bonus:
+		
+	Functia allocaligned functioneaza in principiu la fel ca alloc numai ca trebuie sa ne pozitionam pe un indice aliniat cu numarul cerut de biti. Pentru aceasta folosim functia find_alligned care returneaza primul numar aliniat.
+	Numarul aliniat poate fi chiar el insusi si atunci il returnam direct.
+	Daca nu este el insusi, atunci shiftam la dreapta cu align biti, adaugam 1 si shiftam inapoi la stanga cu align biti. Numarul astfel obtinut este primul numar aliniat cu align biti care urmeaza dupa n.
+	
+	Functia de realloc utilizeaza functiile create anterior (freemeu, alloc). Pentru a putea salva datele din sectiunea ce va fi mutata folosim un vector auxiliar.

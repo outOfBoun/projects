@@ -1,0 +1,16 @@
+mkdir /ana
+mkdir /are
+ls
+mkdir /are/mere
+ls -R /are
+mv /are /ana
+ls -R
+touch /galbene
+touch /rosii
+mv /galbene /ana/are/mere
+mv /rosii /ana/are/mere
+ls /ana/are/mere
+mkdir /ana/n-are
+touch /ana/are/bani
+mv /ana/are/bani /ana/n-are
+ls -R

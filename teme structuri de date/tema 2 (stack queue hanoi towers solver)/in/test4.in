@@ -1,0 +1,99 @@
+98
+add purple 1
+add red 1
+add pink 1
+add black 1
+add white 3
+add blue 2
+add white 1
+add gray 1
+add red 2
+add pink 3
+show yellow
+add red 3
+add green 2
+add orange 3
+add yellow 2
+add blue 1
+add black 3
+add purple 2
+show green
+add green 1
+add purple 3
+show green
+show yellow
+add yellow 1
+add white 2
+show orange
+add black 2
+add gray 3
+show red
+add gray 2
+add pink 2
+add green 3
+add orange 1
+show red
+add yellow 3
+add blue 3
+add orange 2
+show_moves black 3
+play orange 1
+show_moves orange 3
+play orange 5
+play purple 1
+show_moves gray 3
+play pink 5
+show black
+play green 1
+show_moves yellow 1
+play black 1
+show_moves pink 1
+show gray
+play blue 3
+play blue 1
+play pink 1
+play white 3
+play red 1
+play red 1
+show_moves red 1
+show pink
+play pink 1
+play yellow 1
+show_moves black 1
+show_moves green 3
+play orange 1
+show gray
+play gray 1
+play white 1
+play gray 1
+show_moves yellow 3
+show_moves orange 1
+play black 5
+play red 5
+play gray 5
+show_moves gray 1
+show_moves purple 7
+show_moves white 7
+show_moves gray 3
+show_moves red 3
+play purple 3
+show_moves green 3
+show_moves red 3
+show_moves pink 3
+show_moves pink 3
+play white 3
+play yellow 1
+show_moves yellow 3
+play blue 3
+show pink
+play green 1
+show_moves black 3
+play purple 3
+show_moves blue 7
+play green 5
+play black 1
+show black
+show_moves green 1
+show_moves orange 3
+play yellow 5
+show orange

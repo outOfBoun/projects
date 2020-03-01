@@ -1,0 +1,7 @@
+pwd
+cd /
+pwd
+mkdir /star
+mkdir /star/wars
+cd /star/wars
+pwd

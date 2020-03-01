@@ -1,0 +1,20 @@
+8
+a = 1
+b = 2
+cc = 15
+dddd = 3
+eeeeee = 12
+ff = 4
+g = 200
+hhh = -16
+10
++ + + + + + + a b cc dddd eeeeee ff g hhh
+* - + - + - + a b cc dddd eeeeee hhh g - 1 2
++ * ^ a + - b * cc hhh ff - b g 3
++ - + + sqrt a sqrt b * sqrt cc b * 14 sqrt eeeeee * hhh - b 1
++ + - + * ^ a + - b * cc hhh ff - b g 3 / 12 9 ff sqrt 4
+- - a + * b cc sqrt hhh 3
++ - - a a * a + - 1 0 * 199 - sqrt a ^ 2 b / * hhh ff g
+- * + - * b eeeeee * a + * 1 0 * 9 - sqrt a ^ 2 b / * hhh ff g / cc a 7
+- * + - * b eeeeee * a + * 1 0 * 9 - sqrt x ^ 2 b / * hhh ff g / cc a 7
+- - ^ ^ ^ ^ a b cc dddd eeeeee * ^ ^ b a dddd ^ cc dddd ^ ^ cc b b

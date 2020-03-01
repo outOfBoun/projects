@@ -1,0 +1,59 @@
+ls .
+touch a
+touch l
+touch a
+touch space
+touch ba
+touch _
+touch la
+mkdir portocala
+mkdir portocala/mandarina
+mkdir portocala/clementine
+touch portocala/clementine/1
+touch portocala/clementine/1fdsarew
+touch portocala/clementine/1fdsafdsa
+touch portocala/clementine/1gbfdshfd
+touch portocala/clementine/1bvcshtsrestresgyh
+touch portocala/clementine/1ytrshgfudrteyew
+touch portocala/clementine/1treatreagea
+touch portocala/clementine/fdsaweag1
+touch portocala/clementine/reatragre5y1
+touch portocala/clementine/greuyhtsge1
+touch portocala/clementine/erawrtyreau65w41
+touch portocala/clementine/y5e4wu7y45w6t5erg5a1
+touch portocala/clementine/1
+touch portocala/clementine/yyyyywery5we4rrt5g4y1
+touch portocala/clementine/gtreatyreatgrea1
+touch portocala/clementine/1ttretar
+touch portocala/clementine/1rtreatrweaejcrojjklajsdfndasklsahrjewkle
+ls -R /
+mkdir fruits
+cp portocala fruits
+rm portocala
+ls /
+ls /fruits
+mv fruits/portocala/././././clementine fruits/portocala/..
+ls -R /
+mv mandarina .
+mv fruits/portocala/mandarina /
+ls /
+mv mandarina /fruits/.
+touch fruits/prune
+touch fruits/nuci
+ls -R fruits
+mkdir fruits/prune
+cp ./fruits/clementine /
+rm fruits/../fruits/clementine
+ls /
+rm portocala
+ls portocala
+cp a portocala
+cp t portocala
+ls _
+mkdir _
+rm _
+mkdir _
+ls _
+cp clementine /
+cp clementine/1 /
+ls / -R

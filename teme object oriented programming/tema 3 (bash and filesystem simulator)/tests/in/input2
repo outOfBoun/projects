@@ -1,0 +1,13 @@
+ls
+mkdir /lotr
+mkdir /lotr/fratia_inelului
+mkdir /lotr/cele_doua_turnuri
+mkdir /lotr/intoarcerea_regelui
+ls
+ls /lotr
+mkdir /lotr/fratia_inelului/carte
+mkdir /lotr/fratia_inelului/film
+mkdir /lotr/cele_doua_turnuri/ai_cam_intarziat_gandalf
+mkdir /lotr/cele_doua_turnuri/dar_te_iertam
+mkdir /lotr/intoarcerea_regelui/mordor
+ls -R

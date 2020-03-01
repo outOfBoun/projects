@@ -1,0 +1,87 @@
+/* VOICU Alex-Georgian */
+
+		Tema 2 - Turnurile din Hanoi
+		
+		Fisierele proiectului:
+		
+	Fisiere proprii:
+	-main.c este fisierul principal in care sunt implementate functiile cerute in tema;
+	-functiiCoada.c si functiiStiva.c implementeaza functiile pentru stive si cozi care 
+sunt necesare pentru rezolvarea temei.
+
+	Fisiere preluate din laborator si modificate partial:
+	-functiiLG.c (am creat functia Ins_sfLG, ce insereaza la sfarsitul unei liste);
+	-TCoada.h, TStiva.h si tlg.h (am adaugat prototipuri unde era nevoie).
+	
+	
+		functiiCoada.c
+		
+	In cadrul unei cozi, prin retinerea primei si ultimei celule unele operatii pot fi
+facute mai eficient.
+	Introducerea in coada (IntrQ) se poate face direct la sfarsitul cozii, fara a mai
+parcurge lista de celule generice ce o compune.
+	De asemenea, concatenarea (ConcatQ) se poate face rapid numai prin modificarea 
+pointerilor de inceput si sfarsit al listelor din cadrul cozilor.
+
+
+		functiiStiva.c
+		
+	In cazul stivelor, prin retinerea bazei si a varfului, doar operatia de Push se 
+poate face instant. Operatia de Pop necesita o parcurgere a listei stivei pentru 
+gasirea urmatorului varf, deoarece lista generica este simplu inlantuita.
+
+
+		main.c
+		
+	Memorarea unui sistem hanoi se face in structura de sistem_h. Aceasta consta in 3 
+stive reprezentand tijele, 1 coada de memorare a mutarilor, numarul de discuri din 
+sistem, numele (culoarea) sistemului si 1 variabila booleana ce retine daca sau nu 
+sistemul a fost simulat(s-a rulat algoritmul recursiv pentru hanoi).
+	Structura mutare_h reprezinta tipul de date utilizat in coada de memorare a 
+mutarilor si defineste o mutare prin 2 caractere reprezentand stiva sursa si stiva 
+destinatie.
+
+	In cadrul programului se retine o lista de astfel de structuri de sisteme hanoi.
+	
+	Un sistem hanoi poate fi creat de functia add, atunci cand se cere adaugarea unui 
+disc, sau poate fi creat de functia show, ce va afisa un sistem vid.
+	Sistemul hanoi vid este creat de functia creare_sistem_h, ce il aloca, il 
+initializeaza si il introduce in lista de sisteme.
+	
+	-functia add
+	Se cauta in lista de sisteme dupa culoare sistemul in care se doreste inserarea 
+discului.
+	Daca nu este gasit se creeaza mai intai sistemul respectiv.
+	Daca sisteemul este vid (nou creat), discul se introduce direct in stiva A 
+a acestuia.
+	Altfel se va insera pe pozitia corespunzatoare din stiva, prin utilizarea unei stive 
+auxiliare in care vor fi mutate pe rand elementele din stiva A pana cand se gaseste locul 
+discului citit. Dupa inserarea acestuia, elementele din stiva auxiliara sunt puse la loc 
+pe rand in stiva A.
+
+	-functia show
+	Se cauta in lista de sisteme dupa culoare sistemul ce se doreste sa fie afisat.
+	Daca nu este gasit se creeaza mai intai sistemul respectiv.
+	Afisarea se face stiva cu stiva, apeland functia afisare_stiva_bv.
+		->functia afisare_stiva_bv
+		Foloseste o stiva auxiliara pentru a muta elementele din stiva de afisat.
+		Apoi, elementele sunt puse la loc si afisate in acelasi timp.
+		
+	-functia play
+	Se cauta in lista de sisteme dupa culoare sistemul in care se doreste executia unui
+numar de pasi.
+	Daca nu este simulat se apeleaza mai intai hanoi pe sistemul respectiv.
+	Apoi, conform cozii de mutari se fac operatiile pe stive care muta discurile 
+corespunzator.
+
+	-functia show_moves
+	Se cauta in lista de sisteme dupa culoare sistemul pentru care se doreste afisarea 
+unui anumit numar din pasii ce trebuie executati pentru rezolvarea sistemului.
+	Daca nu este simulat se apeleaza mai intai hanoi pe sistemul respectiv.
+	Se parcurge coada de mutari si se afiseaza pasii, salvandu-se totodata intr-o 
+coada auxiliara pasii scosi.
+	La finalul buclei, elementele ramase in coada de mutari sunt concatenate cozii 
+auxiliare.
+	Coada de mutari a sistemului respectiv, ramasa vida, este distrusa.
+	Pointerul cozii de mutari va indica acum catre coada auxiliara, devenita noua 
+coada de mutari a sistemului (dar identica cu cea initiala).

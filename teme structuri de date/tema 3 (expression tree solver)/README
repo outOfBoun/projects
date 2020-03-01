@@ -1,0 +1,43 @@
+/* VOICU Alex-Georgian */
+
+		Tema 3 - Arbori de expresie
+		
+		
+		functiiLG.c tlg.h -- preluate din laborator
+	
+		main.c
+		
+	Variabilele date sunt salvate intr-o lista generica simplu inlantuita, ale
+carei elemente sunt de tip Tvar. Astfel, se memoreaza valoare si numele acestora.
+	Pentru fiecare expresie citita se creeaza si se rezolva cate un arbore de 
+expresie.
+	Arborele de expresie are elemente de tip Telex.
+Aceste elemente contin un char* pentru memorarea variabilelor, un int daca 
+ceea ce se memoreaza e un numar si o variabila de control care specifica 
+ce informatie tine nodul respectiv.
+Pentru valori intre 1-6 ale cod_op se marcheaza un operator. 0 inseamna 
+numar si -1 inseamna variabila.
+
+	Functia ConstruireExpr creeaza arborele in mod recursiv, utilizand valoarea
+de retur pe post de semnal de eroare in diferite cazuri.
+- se apeleaza functia scanare_op care citeste atat cate un element din expresie 
+cat si caracterul delimitator pentru a sti daca operandul/operatorul ce trebuie 
+prelucrat este ultimul. (acest fapt e important deoarece o expresie poate fi 
+invalida sintactic).
+- se interpreteaza operandul/operatorul citit. Daca este un operator atunci 
+va apela functia insasi pentru a-si umple frunzele, iar daca este un operand 
+atunci se salveaza corespunzator datele citite (nume de variabila sau numar).
+	In orice pas al constructiei se verifica codul returnat de functiile apelate 
+recursiv pentru a fi siguri ca sintaxa e valida.
+
+	Dupa terminarea constructiei, daca codul de eroare este -1, inseamna ca totul 
+a decurs cu succes.
+	
+	Functia RezolvareExpr preia arborele construit si il evaluaza recursiv.
+- cazul de baza e reprezentat de frunze. Daca sunt salvate ca numere sunt returnate, 
+daca sunt variabile atunci sunt cautate in lista de variabile.
+- daca nodul contine un operator, atunci se executa operatia dupa caz si se verifica 
+daca este cumva invalida.
+	Daca expresia a fost rezolvata cu succes atunci rezultatul este afisat.
+	Arborele expresiei este eliberat.
+

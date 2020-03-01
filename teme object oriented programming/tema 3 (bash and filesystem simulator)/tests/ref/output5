@@ -1,0 +1,55 @@
+1
+2
+3
+/:
+/ana /are
+
+4
+5
+/are:
+/are/mere
+
+/are/mere:
+
+
+6
+7
+/:
+/ana
+
+/ana:
+/ana/are
+
+/ana/are:
+/ana/are/mere
+
+/ana/are/mere:
+
+
+8
+9
+10
+11
+12
+/ana/are/mere:
+/ana/are/mere/galbene /ana/are/mere/rosii
+
+13
+14
+15
+16
+/:
+/ana
+
+/ana:
+/ana/are /ana/n-are
+
+/ana/are:
+/ana/are/mere
+
+/ana/are/mere:
+/ana/are/mere/galbene /ana/are/mere/rosii
+
+/ana/n-are:
+/ana/n-are/bani
+

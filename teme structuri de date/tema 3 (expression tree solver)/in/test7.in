@@ -1,0 +1,44 @@
+13
+a = 1
+aa = 3
+b = 13
+cccc = 2
+xx = 2
+yyyy = 15
+v = 5
+tt = 3
+t = 12
+tttt = 4
+hhh = -16
+p = 200
+z = 10
+28
+sqrt - + - * 2 3 7 * 14 999 876
+sqrt + * 20 + * * - z v 20 - 20 * 2 z - - 10 v 5 * - z 9 ^ - - + - 20 z v 4 1 2
+* - + - + 9 * 0 4 15 - + 15 * aa 3 ^ * - b cccc 2 2 1 - + - + 9 * 0 4 15 - + 15 * aa 3 ^ * - b cccc 2 2 1
+- - + - + 9 * 0 4 15 - + 15 * aa 3 ^ * - b cccc 2 2 1 + a - - - * aa b ^ cccc 2 + aa cccc * a 0
+sqrt * - + - aa b * - b cccc aa + - aa x * - b cccc aa 343
+* sqrt + + + + + + + a xx yyyy tt t tttt p hhh + + + + + + + a xx yyyy tt t tttt p hhh
+- + + + + + + + a xx yyyy tt t tttt p hhh - + - + 9 * 0 4 15 - + 15 * aa 3 ^ * - b cccc 2 2 1
+/ / + ^ + v 1 + - - - 20 v 8 7 3 / - 99 13 - + 17 3 67 * + 10 76 / 1 - v 1 - + + ^ 5 3 2 - ^ 2 8 ^ 10 2 - 10 1
+^ 5 - 1 / / + ^ + v 1 + - - - 20 v 8 7 3 / - 99 13 - + 17 3 67 * + 10 76 / 1 - v 1 - + + ^ 5 3 2 - ^ 2 8 ^ 10 2 - 10 1
+- + * 20 + * * - z v 20 - 20 * 2 z - - 10 v 5 * - z 9 ^ - - + - 20 z v 4 1 2 - - a + * xx yyyy sqrt hhh 3
++ sqrt + * 20 + * * - z v 20 - 20 * 2 z - - 10 v 5 * - z 9 ^ - - + - 20 z v 4 1 2 + aa cccc
+- * - - ^ ^ ^ ^ a cccc yyyy aa t * ^ ^ cccc a aa ^ yyyy aa ^ ^ yyyy cccc cccc -1 77624
+* * * * 0 - + 89 34 * 0 -876 - + 89 34 * 0 -876 - + 89 34 * 0 -876 - + 89 34 * 0 -876
+sqrt + - 0 hhh * * * * 0 - + 1289 234 * 0 -876 - + 1289 234 * 0 -876 - + 1289 234 * 0 -876 - + 1289 234 * 0 -876
+* sqrt + + + + + + + mx xx yyyy tt t tttt p hhh + + + + + + + a xx yyyy tt t tttt p hhh
++ - * sqrt - v + z 20 + * v v * 2 - * 20 20 + * / z z v * 3 v / * / 2 4 - * * 20 z v * * z v 20 v - 1 * / 20 z * 2 sqrt v
+/ - + + + * 2 5 * ^ 16 - z v * z 0 / 121 - 20 9 ^ * z 0 / * * 20 z v 15 * + t t - + v 5 10 aa
+/ * / - + + + * 2 5 * ^ 16 - z v * z 0 / 121 - 20 9 ^ * z 0 / * * 20 z v 15 * + t t - + v 5 10 aa aa - z 3
+/ ^ / * / - + + + * 2 5 * ^ 16 - z v * z 0 / 121 - 20 9 ^ * z 0 / * * 20 z v 15 * + t t - + v 5 10 aa aa - z aa aa aa
+- + - + 20 * v sqrt 100 / sqrt * 10 10 z / * sqrt * z z sqrt * z z 20 ^ z - - sqrt * z z v 4
+/ - - - + + - + - + * a t p * z z * * t t t ^ p a a a t z * z p - + a a * t z
+sqrt / + / - - - + + - + - + * a t p * z z * * t t t ^ p a a a t z * z p - + a a * t a 2 z
+/ + - / - - - + + - + - + * a t p * z z * * t t t ^ p a a a t z * z p - + a a * t a 8 1 + + - z a a 0
+- - - + + - - * a + a a ^ a ^ + * a a ^ a ^ a a + a a + - * a a a a * a a a a a a
+/ + * p hhh v - - - + + - - * a + a a ^ a ^ + * a a ^ a ^ a a + a a + - * a a a a * a a a a a a
+/ / + * p hhh v - - - + + - - * a + a a ^ a ^ + * a a ^ a ^ a a + a a + - * a a a a * a a a a a a v
+sqrt - - - + + - - * a + a a ^ a ^ + * a a ^ a ^ a a + a a + - * a a a a * a a a a a a
++ - / - * tttt p * v hhh / * 1 4 v / - * tttt tttt * v z / * 1 5 z / - * * tttt tttt tttt * * v z z / * 1 9 z
+

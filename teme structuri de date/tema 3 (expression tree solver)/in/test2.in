@@ -1,0 +1,14 @@
+5
+aa = 7
+bbrc = 2
+x = 0
+y = 13
+z = 55
+6
++ - x y * * aa bbrc z
++ * aa 5 + sqrt - x y - * 12 ^ z x 7
+* y - aa / bbrc x
+- 2 + * / ^ 7 + sqrt 9 - * 3 sqrt 8 5 7 16 1
+- + ^ sqrt aa 2 ^ sqrt bbrc 2 - * + x * / z bbrc bbrc / aa z 8
++ - y z + / ^ aa bbrc x - * 7 y + / 5 6 c
+

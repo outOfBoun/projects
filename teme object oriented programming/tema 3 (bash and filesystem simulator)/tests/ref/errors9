@@ -1,0 +1,36 @@
+1
+2
+mkdir: /bulgaria: No such directory
+3
+4
+mkdir: cannot create directory /romania: Node exists
+5
+6
+7
+8
+9
+10
+cd: /romania/calarasi: No such directory
+11
+12
+13
+touch: cannot create file /romania/bucuresti/populatie: Node exists
+14
+15
+cp: cannot copy into ../romania/ploiesti: No such directory
+16
+rm: cannot remove /romania/bucuresti/populatie_gresit: No such file or directory
+17
+18
+mv: cannot move /romania/ploiesti/sectoare: No such file or directory
+19
+mv: cannot move /romania/ploiesti/populatie: No such file or directory
+20
+21
+22
+23
+24
+25
+26
+27
+28

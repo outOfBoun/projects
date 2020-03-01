@@ -1,0 +1,203 @@
+ls / -R
+touch f1
+touch f2
+touch f3
+touch f4
+touch f5
+touch f6
+touch f7
+touch f8
+touch f9
+touch f10
+touch f20
+touch f30
+touch f40
+touch f50
+touch f60
+touch f70
+touch f80
+touch f90
+touch f100
+touch f200
+touch f300
+touch f400
+touch f500
+touch f600
+touch f700
+touch f800
+touch f900
+touch f1000
+touch f2000
+touch f3000
+touch f4000
+touch f5000
+touch f6000
+touch f7000
+touch f8000
+touch f9000
+touch f10000
+touch f20000
+touch f30000
+touch f40000
+touch f50000
+touch f60000
+touch f70000
+touch f80000
+touch f90000
+mkdir d1
+mkdir d2
+mkdir d3
+mkdir d4
+mkdir d5
+mkdir d6
+mkdir d7
+mkdir d8
+mkdir d9
+mkdir d10
+mkdir d20
+mkdir d30
+mkdir d40
+mkdir d50
+mkdir d60
+mkdir d70
+mkdir d80
+mkdir d90
+mkdir d100
+mkdir d200
+mkdir d300
+mkdir d400
+mkdir d500
+mkdir d600
+mkdir d700
+mkdir d800
+mkdir d900
+mkdir d1000
+mkdir d2000
+mkdir d3000
+mkdir d4000
+mkdir d5000
+mkdir d6000
+mkdir d7000
+mkdir d8000
+mkdir d9000
+mkdir d10000
+mkdir d20000
+mkdir d30000
+mkdir d40000
+mkdir d50000
+mkdir d60000
+mkdir d70000
+mkdir d80000
+mkdir d90000
+ls -R
+cd d900000
+cd ../director_inexistent
+pwd
+cd d300
+mkdir a
+mkdir a/b
+mkdir a/b/c
+mkdir a/b/c/d
+mkdir a/b/c/d/e
+mkdir a/b/c/d/e/f
+mkdir a/b/c/d/e/f/g
+mkdir a/b/c/d/e/f/g/h
+mkdir a/b/c/d/e/f/g/h/i
+mkdir a/b/c/d/e/f/g/h/i/j
+mkdir a/b/c/d/e/f/g/h/i/j/k
+mkdir a/b/c/d/e/f/g/h/i/j/k/l
+mkdir a/b/c/d/e/f/g/h/i/j/k/l/m
+mkdir a/b/c/d/e/f/g/h/i/j/k/l/m/n
+mkdir a/b/c/d/e/f/g/h/i/j/k/l/m/n/o
+mkdir a/b/c/d/e/f/g/h/i/j/k/l/m/n/o/p
+mkdir a/b/c/d/e/f/g/h/i/j/k/l/m/n/o/p/q
+mkdir a/b/c/d/e/f/g/h/i/j/k/l/m/n/o/p/q/r
+mkdir a/b/c/d/e/f/g/h/i/j/k/l/m/n/o/p/q/r/s
+mkdir a/b/c/d/e/f/g/h/i/j/k/l/m/n/o/p/q/r/s/t
+mkdir a/b/c/d/e/f/g/h/i/j/k/l/m/n/o/p/q/r/s/t/u
+mkdir a/b/c/d/e/f/g/h/i/j/k/l/m/n/o/p/q/r/s/t/u/v
+mkdir a/b/c/d/e/f/g/h/i/j/k/l/m/n/o/p/q/r/s/t/u/v/w
+mkdir a/b/c/d/e/f/g/h/i/j/k/l/m/n/o/p/q/r/s/t/u/v/w/x
+mkdir a/b/c/d/e/f/g/h/i/j/k/l/m/n/o/p/q/r/s/t/u/v/w/x/y
+mkdir a/b/c/d/e/f/g/h/i/j/k/l/m/n/o/p/q/r/s/t/u/v/w/x/y/z
+ls ././././././././a/b/../.. -R
+cd a/b/c/d/e/f/g/h/i/j/k/l/m/n/o/p/q/r/s/t/u/v/w/x/y/z
+pwd
+rm ../../../
+rm ../
+rm .
+touch to
+touch be
+touch or
+touch not
+touch to
+touch be
+ls ../z
+rm ./to
+ls .
+cd ../..
+pwd
+rm y
+rm y/z
+rm nothing
+cd ../../../../../../../../../../../../../../../../../../../../../../../..
+pwd
+cp a/b /
+mv ../b/c /
+ls / -R
+cd ..
+cd d9
+pwd
+ls stop
+ls ../../../../../../../../..
+cp ../d9000 ./.
+ls . -R
+mv ../d9 /../.
+mkdir /rgb
+cp . /rgb
+ls -R /rgb
+cd /
+mv d9 ./rgb
+ls -R rgb
+cd d9
+mkdir /./noua
+mv . ../noua
+ls -R /
+pwd
+rm /a
+rm /b
+ls /
+rm c
+rm d
+rm e
+rm f
+touch c/are_you_here
+cd /
+mkdir nope
+ls ../nope
+ls nope
+ls ./nope
+cd /nope/../nope/../nope/../nope
+pwd
+rm .
+cd ..
+ls -R /
+mv d300 /rgb
+cp /rgb ./././nope
+ls nope
+ls nope/rgb
+mv rgb ..
+mv ../___ /rgb/_
+cp ../___ /rgb/_
+mv .. /sun
+cp d500 /___
+cd d400
+cp . /d500
+ls -R /
+cd /d4000
+mv . /d5000
+ls -R /
+pwd
+rm /rgb
+rm /nope
+ls /

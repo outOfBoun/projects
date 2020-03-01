@@ -1,0 +1,70 @@
+1
+2
+3
+4
+touch: cannot create file /a: Node exists
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+touch: cannot create file /portocala/clementine/1: Node exists
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+mv: cannot move mandarina: No such file or directory
+38
+39
+40
+41
+42
+43
+44
+mkdir: cannot create directory /fruits/prune: Node exists
+45
+46
+47
+48
+rm: cannot remove portocala: No such file or directory
+49
+ls: portocala: No such directory
+50
+cp: cannot copy into portocala: No such directory
+51
+cp: cannot copy t: No such file or directory
+52
+ls: _: No such directory
+53
+mkdir: cannot create directory /_: Node exists
+54
+55
+56
+57
+cp: cannot copy clementine: Node exists at destination
+58
+59

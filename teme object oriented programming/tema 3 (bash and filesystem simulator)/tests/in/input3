@@ -1,0 +1,13 @@
+mkdir /pronume
+mkdir /prepozitii
+touch /hello_world
+ls
+mkdir /pronume/eu
+mkdir /pronume/tu
+mkdir /pronume/el
+mkdir /pronume/ea
+touch /prepozitii/de
+touch /prepozitii/pe
+touch /prepozitii/la
+ls -R /pronume
+ls -R /

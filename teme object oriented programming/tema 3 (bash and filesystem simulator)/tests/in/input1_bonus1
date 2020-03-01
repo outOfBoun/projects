@@ -1,0 +1,34 @@
+cd /
+pwd
+mkdir dir
+cd dir
+touch anaaremere
+touch anaseuita
+touch anae
+touch ceva__cu__litere_11_sicifre
+touch ceva__fdsasdf_432_____jfkdsajfdsa
+touch fdsahfjds____fdsjafhdskja____-rewiopuvirjkdfas
+cd ..
+ls -R / | grep "ana.*"
+ls -R /dir | grep "[a-z]+.*[0-9]+.*"
+ls -R /
+pwd
+rm anae
+mkdir sth
+cd sth
+mkdir sth2
+mkdir sth3
+touch sth_ing
+touch som33thing
+cd ..
+ls sth | grep "st.*"
+ls -R / | grep "s[a-z]*[0-9]*[a-z]+"
+ls -R / | grep "s[a-z]*[0-9]*[a-z]?"
+touch sth/sth2/aaaaakfjdsaewioauivcadjka
+touch sth/sth2/bbbbbbbbbbaaaaakfjdsaewioauivcadjka
+touch sth/sth2/ccacccacccacccaaaaakfjdsaewioauivcadjka
+touch sth/sth2/eeeeeeeaaaaakfjdsaewioauivcadjka
+touch sth/sth2/oooooaaaaakfjdsaewioauivcadjka
+touch sth/sth2/upsssssaaaaakfjdsaewioauivcadjka
+touch sth/sth2/nopeaaaaakfjdsaewioauivcadjka
+ls -R / | grep "^[a|b|o]{4,}.*"

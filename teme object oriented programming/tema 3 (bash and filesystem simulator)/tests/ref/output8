@@ -1,0 +1,134 @@
+1
+/:
+
+
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+/:
+/_ /a /ba /l /la /portocala /space
+
+/portocala:
+/portocala/clementine /portocala/mandarina
+
+/portocala/clementine:
+/portocala/clementine/1 /portocala/clementine/1bvcshtsrestresgyh /portocala/clementine/1fdsafdsa /portocala/clementine/1fdsarew /portocala/clementine/1gbfdshfd /portocala/clementine/1rtreatrweaejcrojjklajsdfndasklsahrjewkle /portocala/clementine/1treatreagea /portocala/clementine/1ttretar /portocala/clementine/1ytrshgfudrteyew /portocala/clementine/erawrtyreau65w41 /portocala/clementine/fdsaweag1 /portocala/clementine/greuyhtsge1 /portocala/clementine/gtreatyreatgrea1 /portocala/clementine/reatragre5y1 /portocala/clementine/y5e4wu7y45w6t5erg5a1 /portocala/clementine/yyyyywery5we4rrt5g4y1
+
+/portocala/mandarina:
+
+
+30
+31
+32
+33
+/:
+/_ /a /ba /fruits /l /la /space
+
+34
+/fruits:
+/fruits/portocala
+
+35
+36
+/:
+/_ /a /ba /fruits /l /la /space
+
+/fruits:
+/fruits/clementine /fruits/portocala
+
+/fruits/clementine:
+/fruits/clementine/1 /fruits/clementine/1bvcshtsrestresgyh /fruits/clementine/1fdsafdsa /fruits/clementine/1fdsarew /fruits/clementine/1gbfdshfd /fruits/clementine/1rtreatrweaejcrojjklajsdfndasklsahrjewkle /fruits/clementine/1treatreagea /fruits/clementine/1ttretar /fruits/clementine/1ytrshgfudrteyew /fruits/clementine/erawrtyreau65w41 /fruits/clementine/fdsaweag1 /fruits/clementine/greuyhtsge1 /fruits/clementine/gtreatyreatgrea1 /fruits/clementine/reatragre5y1 /fruits/clementine/y5e4wu7y45w6t5erg5a1 /fruits/clementine/yyyyywery5we4rrt5g4y1
+
+/fruits/portocala:
+/fruits/portocala/mandarina
+
+/fruits/portocala/mandarina:
+
+
+37
+38
+39
+/:
+/_ /a /ba /fruits /l /la /mandarina /space
+
+40
+41
+42
+43
+/fruits:
+/fruits/clementine /fruits/mandarina /fruits/nuci /fruits/portocala /fruits/prune
+
+/fruits/clementine:
+/fruits/clementine/1 /fruits/clementine/1bvcshtsrestresgyh /fruits/clementine/1fdsafdsa /fruits/clementine/1fdsarew /fruits/clementine/1gbfdshfd /fruits/clementine/1rtreatrweaejcrojjklajsdfndasklsahrjewkle /fruits/clementine/1treatreagea /fruits/clementine/1ttretar /fruits/clementine/1ytrshgfudrteyew /fruits/clementine/erawrtyreau65w41 /fruits/clementine/fdsaweag1 /fruits/clementine/greuyhtsge1 /fruits/clementine/gtreatyreatgrea1 /fruits/clementine/reatragre5y1 /fruits/clementine/y5e4wu7y45w6t5erg5a1 /fruits/clementine/yyyyywery5we4rrt5g4y1
+
+/fruits/mandarina:
+
+
+/fruits/portocala:
+
+
+44
+45
+46
+47
+/:
+/_ /a /ba /clementine /fruits /l /la /space
+
+48
+49
+50
+51
+52
+53
+54
+55
+56
+/_:
+
+
+57
+58
+59
+/:
+/1 /_ /a /ba /clementine /fruits /l /la /space
+
+/_:
+
+
+/clementine:
+/clementine/1 /clementine/1bvcshtsrestresgyh /clementine/1fdsafdsa /clementine/1fdsarew /clementine/1gbfdshfd /clementine/1rtreatrweaejcrojjklajsdfndasklsahrjewkle /clementine/1treatreagea /clementine/1ttretar /clementine/1ytrshgfudrteyew /clementine/erawrtyreau65w41 /clementine/fdsaweag1 /clementine/greuyhtsge1 /clementine/gtreatyreatgrea1 /clementine/reatragre5y1 /clementine/y5e4wu7y45w6t5erg5a1 /clementine/yyyyywery5we4rrt5g4y1
+
+/fruits:
+/fruits/mandarina /fruits/nuci /fruits/portocala /fruits/prune
+
+/fruits/mandarina:
+
+
+/fruits/portocala:
+
+

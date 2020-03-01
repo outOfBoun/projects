@@ -1,0 +1,501 @@
+LRU
+17
+498
+GET Dance
+GET Exam
+ADD Mountain 7
+GET Pizza
+ADD POO 1 3
+ADD Sing 0 1
+GET Laptop
+GET Java
+ADD EiffelTower 4 6
+GET EiffelTower
+GET Metallica
+GET Coldplay
+GET Maroon5
+GET Speaker
+GET Phone
+GET Metallica
+ADD POO 0
+GET Maroon5
+GET Exam
+ADD Dance 4 4
+GET Speaker
+ADD Whatsapp 1 0
+GET Grade
+GET Cache
+GET Instagram
+GET Laptop
+ADD Tennis 4
+GET Football
+ADD GameOfThrones 7
+GET Coldplay
+GET Phone
+GET MachuPichu
+GET EiffelTower
+GET Tennis
+GET Colosseum
+GET HotDog
+ADD Grade 9 2
+ADD Whatsapp 4 9
+ADD Party 8 6
+GET Mountain
+GET Laptop
+GET Java
+GET Cache
+GET GameOfThrones
+GET Football
+GET Maroon5
+GET Dance
+ADD Facebook 4
+ADD Phone 0 9
+GET Colosseum
+GET Tennis
+ADD Exam 4
+GET POO
+GET Homework1
+GET Dance
+GET Party
+GET EdSheeran
+ADD Football 8
+GET Pizza
+ADD Phone 8 5
+GET GameOfThrones
+GET EiffelTower
+GET HotDog
+GET Instagram
+ADD Laptop 5 4
+ADD EiffelTower 6
+GET HotDog
+GET Mountain
+GET Facebook
+ADD Mountain 9
+GET Java
+ADD Java 1 2
+GET Dance
+GET Colosseum
+GET Phone
+GET Instagram
+GET Sing
+GET EdSheeran
+ADD Pizza 4
+GET Sing
+GET Facebook
+GET Instagram
+GET Football
+ADD EiffelTower 8
+ADD Car 5 7
+GET MachuPichu
+GET GameOfThrones
+GET Laptop
+GET Pizza
+GET EdSheeran
+GET Facebook
+ADD Burger 2 1
+GET Tennis
+GET Car
+ADD Burger 0 4
+GET Instagram
+GET Tennis
+GET Metallica
+GET POO
+ADD Laptop 4
+GET EdSheeran
+GET Laptop
+GET Coldplay
+ADD Sing 7
+GET Mountain
+ADD POO 8
+GET Colosseum
+GET EdSheeran
+ADD Pizza 6
+GET Sing
+ADD POO 3
+GET Coldplay
+GET Sing
+GET Laptop
+GET Mountain
+GET Maroon5
+GET HotDog
+GET Speaker
+ADD Speaker 7
+GET Football
+GET EiffelTower
+GET Instagram
+ADD Laptop 7 3
+GET EdSheeran
+ADD EdSheeran 8 4
+GET Party
+ADD Instagram 5 1
+GET Burger
+GET Phone
+ADD Car 5 1
+GET Phone
+GET Homework1
+GET Whatsapp
+GET POO
+GET EiffelTower
+GET EiffelTower
+GET Burger
+GET Whatsapp
+GET Exam
+GET Instagram
+GET Metallica
+GET Cache
+GET Burger
+GET Facebook
+GET GameOfThrones
+GET EdSheeran
+GET Burger
+GET POO
+ADD EdSheeran 0
+GET Speaker
+GET Burger
+GET MachuPichu
+GET Coldplay
+GET Colosseum
+GET Pizza
+ADD Maroon5 1 9
+GET Instagram
+GET Java
+ADD Dance 0
+GET Maroon5
+GET MachuPichu
+GET Colosseum
+GET Instagram
+GET Homework1
+GET Homework1
+GET Car
+GET Instagram
+GET Facebook
+GET Whatsapp
+ADD Java 0 6
+GET Football
+ADD Maroon5 8
+GET POO
+ADD Homework1 7
+GET EdSheeran
+GET Exam
+GET MachuPichu
+ADD Colosseum 5
+GET Party
+GET Speaker
+GET Whatsapp
+GET POO
+GET Facebook
+ADD Sing 6
+ADD Dance 0
+ADD GameOfThrones 6
+GET Homework1
+ADD Exam 9
+GET Java
+GET Laptop
+ADD Java 1 6
+GET Dance
+GET Phone
+GET Party
+GET Sing
+GET EiffelTower
+GET Sing
+GET Instagram
+GET Speaker
+GET Facebook
+GET Burger
+GET HotDog
+ADD GameOfThrones 3 8
+GET Tennis
+ADD Sing 1 5
+GET Laptop
+GET Facebook
+GET EiffelTower
+GET Dance
+GET MachuPichu
+GET Cache
+GET Colosseum
+ADD Coldplay 0 4
+GET Party
+GET HotDog
+ADD Speaker 6
+GET Dance
+GET Phone
+ADD Sing 5
+ADD Sing 9 3
+GET Sing
+GET Tennis
+GET Grade
+ADD Cache 8 8
+ADD Homework1 5
+GET Sing
+GET POO
+GET Java
+GET Colosseum
+GET Facebook
+GET Colosseum
+GET EiffelTower
+GET Mountain
+GET Coldplay
+GET Grade
+GET Metallica
+GET Tennis
+GET GameOfThrones
+GET Java
+ADD Whatsapp 3
+GET EdSheeran
+GET Maroon5
+GET HotDog
+GET Football
+GET EdSheeran
+GET Football
+GET Mountain
+GET Exam
+GET Instagram
+GET Pizza
+GET Instagram
+ADD Grade 2
+GET MachuPichu
+GET Dance
+ADD Homework1 5 3
+GET Java
+GET Mountain
+ADD Instagram 0
+ADD Cache 8 4
+ADD Exam 7 5
+GET Cache
+GET Sing
+GET POO
+GET Facebook
+ADD HotDog 3
+ADD Coldplay 5
+GET Cache
+ADD Homework1 8 3
+ADD Phone 3
+GET Homework1
+ADD Laptop 0 6
+GET EdSheeran
+ADD POO 6 7
+GET Exam
+ADD Mountain 4 1
+GET Tennis
+GET HotDog
+GET Speaker
+GET Cache
+GET Cache
+ADD MachuPichu 2
+GET EdSheeran
+ADD Grade 5
+GET Instagram
+GET GameOfThrones
+GET Mountain
+GET Grade
+GET GameOfThrones
+GET Coldplay
+GET Speaker
+GET POO
+GET Mountain
+GET Burger
+GET Speaker
+GET Tennis
+GET Java
+GET Laptop
+GET Instagram
+GET GameOfThrones
+GET Grade
+ADD EdSheeran 7 4
+GET Car
+GET Maroon5
+GET EdSheeran
+GET Maroon5
+GET EdSheeran
+GET Laptop
+ADD Maroon5 3 7
+GET Cache
+GET Whatsapp
+GET Football
+GET Mountain
+GET Football
+GET Facebook
+GET Exam
+ADD Mountain 8 0
+GET Coldplay
+ADD Instagram 8 5
+GET Facebook
+GET Colosseum
+GET Maroon5
+GET Whatsapp
+GET Tennis
+GET Whatsapp
+GET Burger
+GET Metallica
+GET Burger
+GET Colosseum
+GET HotDog
+GET Grade
+GET Exam
+GET Java
+ADD Tennis 7 2
+GET Pizza
+GET Exam
+ADD Colosseum 8 8
+GET Speaker
+GET Metallica
+GET MachuPichu
+GET Football
+ADD Tennis 5 9
+ADD Pizza 7
+GET Car
+ADD Phone 2 7
+GET Party
+ADD POO 5
+ADD Colosseum 6
+GET MachuPichu
+GET Laptop
+GET Dance
+GET Java
+ADD Tennis 0 0
+GET GameOfThrones
+GET Speaker
+GET Exam
+GET Phone
+GET Whatsapp
+ADD Cache 5
+GET Whatsapp
+GET Party
+GET Party
+GET Sing
+GET Burger
+GET Maroon5
+ADD Java 7 8
+GET Tennis
+GET HotDog
+GET Java
+ADD Football 8
+ADD Tennis 1 5
+GET Colosseum
+ADD Party 0
+GET Facebook
+GET Grade
+GET Pizza
+ADD Laptop 9 5
+GET POO
+GET Laptop
+GET Java
+GET MachuPichu
+ADD MachuPichu 7
+GET GameOfThrones
+GET Whatsapp
+GET Coldplay
+GET Colosseum
+GET Speaker
+GET Maroon5
+GET Phone
+GET Mountain
+GET Football
+GET Exam
+ADD EiffelTower 1
+ADD Coldplay 0
+GET POO
+GET Exam
+GET GameOfThrones
+GET Exam
+ADD Whatsapp 4
+GET Car
+ADD Speaker 7 9
+GET Facebook
+GET Metallica
+GET Java
+GET Sing
+GET Java
+GET Facebook
+GET Facebook
+ADD POO 1
+GET Coldplay
+GET Car
+GET Football
+GET Instagram
+ADD EiffelTower 7
+ADD Facebook 3
+GET Pizza
+ADD Metallica 2 4
+GET Metallica
+GET Colosseum
+ADD Facebook 0 5
+ADD GameOfThrones 1
+GET EiffelTower
+ADD Mountain 6
+GET EdSheeran
+GET EiffelTower
+GET GameOfThrones
+GET Laptop
+GET Party
+GET POO
+GET Dance
+GET EiffelTower
+GET Phone
+GET Instagram
+GET Exam
+GET Speaker
+GET Burger
+GET Whatsapp
+GET Laptop
+ADD Instagram 4
+GET EiffelTower
+GET Homework1
+ADD Facebook 4
+GET Phone
+GET Facebook
+GET Colosseum
+GET Football
+ADD Dance 8
+GET Burger
+ADD Cache 2
+GET Car
+ADD MachuPichu 7 5
+ADD Football 2 0
+GET Football
+GET Burger
+GET Laptop
+GET Burger
+GET Homework1
+GET Coldplay
+ADD Sing 3 0
+GET Facebook
+GET Laptop
+GET Football
+GET Car
+GET Facebook
+GET Cache
+GET Homework1
+GET Metallica
+GET Sing
+GET Speaker
+GET Metallica
+ADD Java 6
+GET Phone
+GET Dance
+ADD Colosseum 7
+GET Speaker
+GET Maroon5
+GET Facebook
+GET Metallica
+ADD Phone 3
+GET MachuPichu
+GET Pizza
+GET Instagram
+GET Instagram
+ADD Homework1 6 3
+GET Mountain
+GET Exam
+GET Coldplay
+GET POO
+GET Party
+ADD MachuPichu 7
+GET Dance
+ADD Sing 1
+ADD GameOfThrones 9
+GET Laptop
+GET Dance
+GET Whatsapp
+GET POO
+GET Dance
+ADD GameOfThrones 1

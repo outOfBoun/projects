@@ -1,0 +1,66 @@
+A_yellow:
+B_yellow:
+C_yellow:
+A_green: 2
+B_green:
+C_green:
+A_green: 2 1
+B_green:
+C_green:
+A_yellow: 2
+B_yellow:
+C_yellow:
+A_orange: 3
+B_orange:
+C_orange:
+A_red: 3 2 1
+B_red:
+C_red:
+A_red: 3 2 1
+B_red:
+C_red:
+M_black: A->C A->B C->B
+M_orange: A->B C->B A->C
+M_gray: A->C A->B C->B
+A_black: 3 2 1
+B_black:
+C_black:
+M_yellow: A->C
+M_pink: B->C
+A_gray: 3 2 1
+B_gray:
+C_gray:
+M_red: C->B
+A_pink: 1
+B_pink:
+C_pink: 3 2
+M_black: A->B
+M_green: A->B C->B A->C
+A_gray: 3 2 1
+B_gray:
+C_gray:
+M_yellow: A->B C->B A->C
+M_orange:
+M_gray:
+M_purple: A->B C->B A->C B->A B->C A->C
+M_white: B->A B->C A->C
+M_gray:
+M_red:
+M_green: A->B C->B A->C
+M_red:
+M_pink:
+M_pink:
+M_yellow: C->B A->C B->A
+A_pink:
+B_pink:
+C_pink: 3 2 1
+M_black: A->C
+M_blue:
+A_black:
+B_black:
+C_black: 3 2 1
+M_green:
+M_orange:
+A_orange:
+B_orange:
+C_orange: 3 2 1

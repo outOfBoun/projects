@@ -1,0 +1,33 @@
+Voicu Alex-Georgian
+
+		Tema 1 PP
+
+	ClassState.hs
+
+		- TDA-ul ClassState retine informatii despre o clasa sub forma a doua map-uri (unul pentru variabile si celalalt pentru functii)
+		- insertIntoClass utilizeaza metodele din Map pentru inserare
+		- getValues returneaza o lista de obiecte formate prin parcurgerea Map-ului prin fold
+
+	Parser.hs
+
+		- Program este un map de valori ClassObj, cu cheia String = numele clasei
+		- ClassObj este o pereche de nume clasa parinte si obiect ClassState, in care se pastreaza configuratia unei clase
+
+		- parse
+			- functia transforma fisierul in [Innstruction] (linii din program) folosind functia splitBy cu delimitatorul newline
+
+		- interpret
+			- o instructiune este transformata intr-o lista de cuvinte prin functia splitByMult ce primeste lista tuturor delimitatorilor posibili
+		
+		- interpretaux
+			- primeste lista de cuvinte si pe baza cuvintelor cheie deconstruite identifica rutina corespunzatoare de interpretare
+			- daca este "class", "newvar" sau functie (ultima posibilitate) se verifica neexistenta in program e clasei/variabilei/ functiei si existenta dependintelor si daca acestea exista atunci obiectul este integrat in program
+
+		- infer
+			- inferVarAux afla tipul unei variabile trecand prin lista tuturor variabilelor si returnand tipul celei al carei nume coincide
+			- pentru expresii de tip functie se apeleaza in cascada urmatoarele:
+				- inferVarClass afla clasa din care face parte variabila a carei functie e apelata
+				- inferSubexpression afla tipul subexpresiilor si le verifica contra unei liste de functii valide (*)
+					- (*) inferGetSameNameFuncs returneaza functiile candidat de pe lantul mostenirii unei clase
+					- inferSubexpressionaux potriveste tipurile subexpresiilor cu tipul functiilor candidat
+

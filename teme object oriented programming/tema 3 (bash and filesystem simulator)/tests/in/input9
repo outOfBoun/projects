@@ -1,0 +1,28 @@
+mkdir /romania
+mkdir /bulgaria/sofia
+mkdir /bulgaria
+mkdir /romania
+ls
+cd /romania
+pwd
+mkdir /romania/bucuresti
+mkdir /romania/ploiesti
+cd /romania/calarasi
+cd /romania/bucuresti
+touch /romania/bucuresti/populatie
+touch /romania/bucuresti/populatie
+ls /romania/bucuresti
+cp /romania/bucuresti/populatie ../romania/ploiesti
+rm /romania/bucuresti/populatie_gresit
+rm /romania/bucuresti/populatie
+mv /romania/ploiesti/sectoare /romania/bucuresti
+mv /romania/ploiesti/populatie /
+cd /
+ls 
+cd /romania
+rm /romania
+pwd
+cd /
+ls -R
+rm /romania
+ls -R

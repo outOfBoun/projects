@@ -1,0 +1,25 @@
+3
+a = 20
+b = 10
+c = 5
+20
+* - + + a - / * 2 18 9 * / 14 2 ^ 6 2 / a ^ a 2 * / / 1 2 3 20 + + / 45 9 0 123
+sqrt * - + + a - / * 2 18 9 * / 14 2 ^ 6 2 / a ^ a 2 * / / 1 2 3 20 + + / 45 9 0 123
++ + + a b * ^ c sqrt + a * b c - b a sqrt + a * b c
+- + + + * 2 5 * ^ 16 - b c * b 0 / 121 - a 9 ^ * b 0 / * * a b c 15 * 24 - + c 5 10
+* - + / * - + / 121 11 11 11 11 11 ^ 11 2 / * 11 11 + b 1 c
++ * a + * * - b c a - a * 2 b - - b c 5 * - b 9 ^ + - + - a b c 4 1 2
++ * a + * * - b c a - a * 2 b - - b c 5 * - b 9 ^ - - + - a b c 4 1 2
++ + + - / * b b a c ^ / - ^ a 3 * c c * a b 2 - / * a c b 5 - b / * 2 a 4
+* + + + - / * b b a c ^ / - ^ a 3 * c c * a b 2 - / * a c b 5 - b / * 2 a 4 - + - 3 * c ^ a v 1 / v a
+* + + + - / * b b a c ^ / - ^ a 3 * c c * a b 2 - / * a c b 5 - b / * 2 a 4 - + - 3 * c ^ a 2 1 / 2 a
+- + - + a * c sqrt 100 / sqrt * 10 10 b / * sqrt 100 sqrt 100 a ^ b - - sqrt * c c 4 0
+^ sqrt - + - + a * c sqrt 100 / sqrt * 10 10 b / * sqrt 100 sqrt 100 a ^ b - - sqrt * c c 4 0 2
+sqrt sqrt - + - + a * c sqrt 100 / sqrt * 10 10 b / * sqrt 100 sqrt 100 a ^ b - - sqrt * c c 4 0
+/ / + ^ 6 + - - 15 8 7 3 / - 99 13 - + 17 3 67 * + 10 76 / 1 4 - + + ^ 5 3 2 - ^ 2 8 100 9
+/ / + ^ + c 1 + - - - a c 8 7 3 / - 99 13 - + 17 3 67 * + b 76 / 1 - c 1 - + + ^ 5 3 2 - ^ 2 8 ^ b 2 - b 1
++ - ^ - + a b c + * c c ^ 2 - * a a + * / b b c ^ 3 c / * / 2 4 - * * a b c * * b c a c - yyyy * / a b ^ 2 c
++ - * - + a b c + * c c * 2 - * a a + * / b b c * 3 c / * / 2 4 - * * a b c * * b c a c - 1 * / a b * 2 c
++ - * sqrt - + a b c + * c c * 2 - * a a + * / b b c * 3 c / * / 2 4 - * * a b c * * b c a c - 1 * / a b * 2 sqrt c
++ - * sqrt - c + b a + * c c * 2 - * a a + * / b b c * 3 c / * / 2 4 - * * a b c * * b c a c - 1 * / a b * 2 sqrt c
+^ - * / 3 4 10 c - + - * - + a b c + * c c * 2 - * a a + * / b b c * 3 c / * / 2 4 - * * a b c * * b c a c - 1 * / a b * 2 c 19605

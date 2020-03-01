@@ -1,0 +1,155 @@
+A_red: 3
+B_red:
+C_red:
+A_orange:
+B_orange:
+C_orange:
+A_yellow: 1
+B_yellow:
+C_yellow:
+A_orange:
+B_orange:
+C_orange:
+A_green: 7 5 3
+B_green:
+C_green:
+A_blue: 9 8 4 3 2 1
+B_blue:
+C_blue:
+A_blue: 9 8 4 3 2 1
+B_blue:
+C_blue:
+A_blue: 9 8 6 5 4 3 2 1
+B_blue:
+C_blue:
+A_blue: 9 8 7 6 5 4 3 2 1
+B_blue:
+C_blue:
+A_blue: 9 8 7 6 5 4 3 2 1
+B_blue:
+C_blue:
+A_red: 3 2 1
+B_red:
+C_red:
+A_orange: 10 8 7 6 4 2 1
+B_orange:
+C_orange:
+A_green: 7 6 5 3 2 1
+B_green:
+C_green:
+A_green: 7 6 5 3 2 1
+B_green:
+C_green:
+A_orange: 10 9 8 7 6 4 2 1
+B_orange:
+C_orange:
+A_orange: 10 9 8 7 6 5 4 3 2 1
+B_orange:
+C_orange:
+A_black: 9 8 7 6 5 4 3 2 1
+B_black:
+C_black:
+M_pink: A->C
+M_purple: A->C A->B C->B
+A_azure: 8 7 6 5 4 3 2 1
+B_azure:
+C_azure:
+M_azure: A->B A->C B->C A->B C->A C->B A->B A->C B->C B->A C->A B->C A->B A->C B->C A->B C->A C->B A->B C->A B->C B->A C->A C->B A->B A->C B->C A->B C->A C->B A->B A->C B->C B->A C->A B->C A->B A->C B->C B->A C->A C->B A->B C->A B->C B->A C->A B->C A->B A->C B->C A->B C->A C->B A->B A->C B->C B->A C->A B->C A->B A->C B->C A->B C->A C->B A->B C->A B->C B->A C->A C->B A->B A->C B->C A->B C->A C->B A->B C->A B->C B->A C->A B->C A->B A->C B->C B->A C->A C->B A->B C->A B->C B->A C->A C->B A->B A->C B->C A->B C->A C->B A->B A->C B->C B->A C->A B->C A->B A->C B->C A->B C->A C->B A->B C->A B->C B->A C->A C->B A->B A->C B->C A->B C->A C->B A->B A->C B->C B->A C->A B->C A->B A->C B->C B->A C->A C->B A->B C->A B->C B->A C->A B->C A->B A->C B->C A->B C->A C->B A->B A->C B->C B->A C->A B->C A->B A->C B->C B->A C->A C->B A->B C->A B->C B->A C->A C->B A->B A->C B->C A->B C->A C->B A->B C->A B->C B->A C->A B->C
+M_azure: A->B A->C B->C A->B
+M_black: A->C A->B C->B
+M_blue: A->C
+M_pink: A->C A->B
+M_gray: A->B A->C
+M_green: A->C
+M_black: C->B
+M_black: C->B A->C B->A B->C A->C B->A C->B C->A
+M_gray: A->B A->C B->C A->B C->A C->B A->B A->C B->C B->A C->A B->C
+M_blue: A->C
+M_blue: A->B C->B A->C B->A B->C A->C A->B C->B C->A B->A C->B A->C
+M_gray:
+M_blue: A->B C->B A->C B->A B->C A->C A->B C->B
+M_black: C->B
+A_gray:
+B_gray:
+C_gray: 4 3 2 1
+M_white: B->C B->A C->A B->C A->B A->C B->C A->B C->A C->B A->B C->A B->C B->A C->A C->B A->B A->C B->C A->B C->A C->B A->B A->C B->C B->A C->A B->C A->B A->C B->C B->A C->A C->B A->B C->A B->C B->A C->A B->C A->B A->C B->C A->B C->A C->B A->B A->C B->C B->A C->A B->C A->B A->C B->C A->B C->A C->B A->B C->A B->C B->A C->A C->B A->B A->C B->C A->B C->A C->B A->B C->A B->C B->A C->A B->C A->B A->C B->C B->A C->A C->B A->B C->A B->C B->A C->A C->B A->B A->C B->C A->B C->A C->B A->B A->C B->C B->A C->A B->C A->B A->C B->C A->B C->A C->B A->B C->A B->C B->A C->A C->B A->B A->C B->C A->B C->A C->B A->B A->C B->C B->A C->A B->C A->B A->C B->C B->A C->A C->B A->B C->A B->C B->A C->A B->C A->B A->C B->C A->B C->A C->B A->B A->C B->C B->A C->A B->C A->B A->C B->C B->A C->A C->B A->B C->A B->C B->A C->A C->B A->B A->C B->C A->B C->A C->B A->B C->A B->C B->A C->A B->C A->B A->C B->C B->A C->A C->B A->B C->A B->C B->A C->A B->C A->B A->C B->C A->B C->A C->B A->B A->C B->C B->A C->A B->C A->B A->C B->C A->B C->A C->B A->B C->A B->C B->A C->A C->B A->B A->C B->C A->B C->A C->B A->B A->C B->C B->A C->A B->C A->B A->C B->C B->A C->A C->B A->B C->A B->C B->A C->A B->C A->B A->C B->C A->B C->A C->B A->B A->C B->C B->A C->A B->C A->B
+M_green: C->B C->A B->A C->B A->C A->B C->B A->C B->A B->C A->C
+M_green: C->B C->A B->A C->B A->C A->B C->B A->C B->A B->C
+M_white: B->C B->A C->A B->C A->B A->C B->C A->B C->A C->B A->B C->A B->C B->A C->A C->B A->B A->C B->C A->B C->A C->B A->B A->C B->C B->A C->A B->C A->B A->C B->C B->A C->A C->B A->B C->A B->C B->A C->A B->C A->B A->C B->C A->B C->A C->B A->B A->C B->C B->A C->A B->C A->B A->C B->C A->B C->A C->B A->B C->A B->C B->A C->A C->B A->B A->C B->C A->B C->A C->B A->B C->A B->C B->A C->A B->C A->B A->C B->C B->A C->A C->B A->B C->A B->C B->A C->A C->B A->B A->C B->C A->B C->A C->B A->B A->C B->C B->A C->A B->C A->B A->C B->C A->B C->A C->B A->B C->A B->C B->A C->A C->B A->B A->C B->C A->B C->A C->B A->B A->C B->C B->A C->A B->C A->B A->C B->C B->A C->A C->B A->B C->A B->C B->A C->A B->C A->B A->C B->C A->B C->A C->B A->B A->C B->C B->A C->A B->C A->B A->C B->C B->A C->A C->B A->B C->A B->C B->A C->A C->B A->B A->C B->C A->B C->A C->B A->B C->A B->C B->A C->A B->C A->B A->C B->C B->A C->A C->B A->B C->A B->C B->A C->A B->C A->B A->C B->C A->B C->A C->B A->B A->C B->C B->A C->A B->C A->B A->C B->C A->B C->A C->B A->B C->A B->C B->A C->A C->B A->B A->C B->C A->B C->A C->B A->B A->C B->C B->A C->A B->C A->B A->C B->C B->A C->A C->B A->B C->A B->C B->A C->A B->C A->B A->C B->C A->B C->A C->B A->B A->C B->C B->A C->A B->C A->B A->C B->C A->B C->A C->B A->B C->A B->C B->A C->A C->B A->B A->C B->C A->B C->A C->B A->B C->A B->C B->A C->A B->C A->B A->C B->C B->A C->A C->B A->B C->A B->C B->A C->A C->B A->B A->C
+A_azure: 6 1
+B_azure: 7 4 3 2
+C_azure: 8 5
+M_white: B->C B->A C->A B->C A->B A->C B->C A->B C->A C->B A->B C->A B->C B->A C->A C->B A->B A->C B->C A->B C->A C->B A->B A->C B->C B->A C->A B->C A->B A->C B->C B->A C->A C->B A->B C->A B->C B->A C->A B->C A->B A->C B->C A->B C->A C->B A->B A->C B->C B->A C->A B->C A->B A->C B->C A->B C->A C->B A->B C->A B->C B->A C->A C->B A->B A->C B->C A->B C->A C->B A->B C->A B->C B->A C->A B->C A->B A->C B->C B->A C->A C->B A->B C->A B->C B->A C->A C->B A->B A->C B->C A->B C->A C->B A->B A->C B->C B->A C->A B->C A->B A->C B->C A->B C->A C->B A->B C->A B->C B->A C->A C->B A->B A->C B->C A->B C->A C->B A->B A->C B->C B->A C->A B->C A->B A->C B->C B->A C->A C->B A->B C->A B->C B->A C->A B->C A->B A->C B->C A->B C->A C->B A->B A->C B->C B->A C->A B->C
+M_blue: A->B C->B A->C
+M_azure: A->B C->A B->C B->A C->A B->C A->B A->C B->C B->A C->A C->B A->B C->A B->C B->A C->A B->C A->B A->C B->C A->B C->A C->B A->B A->C B->C
+M_azure: A->B C->A B->C B->A C->A B->C A->B A->C B->C B->A C->A C->B A->B C->A B->C B->A C->A B->C A->B A->C B->C A->B C->A C->B A->B A->C B->C B->A C->A B->C A->B A->C B->C A->B C->A C->B A->B C->A B->C B->A C->A C->B
+M_black: C->B A->C B->A B->C A->C B->A C->B C->A B->A B->C A->C A->B C->B A->C B->A B->C A->C A->B C->B C->A B->A C->B A->C A->B C->B
+M_pink: C->B C->A B->A
+M_azure: A->B
+M_blue: A->B C->B A->C B->A B->C A->C A->B C->B C->A B->A C->B A->C A->B C->B A->C B->A
+M_blue: B->C A->C A->B C->B C->A B->A C->B A->C A->B C->B A->C B->A B->C A->C B->A C->B C->A B->A B->C A->C A->B C->B A->C B->A B->C A->C A->B C->B C->A B->A C->B A->C A->B C->B C->A B->A B->C A->C B->A C->B C->A B->A C->B A->C A->B C->B A->C B->A B->C A->C A->B C->B C->A B->A C->B A->C A->B C->B A->C B->A B->C A->C B->A C->B C->A B->A B->C A->C A->B C->B A->C B->A B->C A->C B->A C->B C->A B->A C->B A->C A->B C->B C->A B->A B->C A->C B->A C->B C->A B->A B->C A->C A->B C->B A->C B->A B->C A->C A->B C->B C->A B->A C->B A->C A->B C->B A->C B->A B->C A->C B->A C->B C->A B->A B->C A->C A->B C->B A->C B->A B->C A->C A->B C->B C->A B->A C->B A->C A->B C->B C->A B->A B->C A->C B->A C->B C->A B->A C->B A->C A->B C->B A->C B->A B->C A->C A->B C->B C->A B->A C->B A->C A->B C->B C->A B->A B->C A->C B->A C->B
+A_pink: 3
+B_pink: 6 5 4
+C_pink: 7 2 1
+M_pink: C->B C->A B->A B->C A->C A->B C->B A->C B->A B->C A->C
+M_black: C->B A->C
+M_green: C->A B->A B->C A->C B->A C->B C->A B->A B->C A->C A->B C->B A->C B->A B->C A->C A->B C->B C->A B->A C->B A->C A->B C->B A->C B->A B->C A->C B->A C->B C->A B->A B->C A->C A->B C->B A->C B->A B->C A->C
+M_purple: A->C
+M_pink: B->A B->C A->C A->B C->B A->C B->A B->C A->C B->A C->B C->A B->A C->B A->C A->B C->B C->A B->A B->C A->C B->A C->B C->A B->A B->C A->C A->B C->B A->C B->A B->C A->C A->B C->B C->A B->A C->B A->C A->B C->B A->C B->A B->C A->C B->A C->B C->A B->A B->C A->C A->B C->B A->C B->A B->C A->C
+A_purple: 1
+B_purple:
+C_purple: 3 2
+M_black: A->C B->A B->C A->C B->A C->B C->A B->A B->C A->C A->B C->B A->C B->A B->C A->C A->B C->B C->A B->A C->B A->C A->B C->B C->A B->A B->C A->C B->A C->B C->A B->A C->B A->C A->B C->B A->C B->A B->C A->C A->B C->B C->A B->A C->B A->C A->B C->B A->C B->A B->C A->C B->A C->B C->A B->A B->C A->C A->B C->B A->C B->A B->C A->C B->A C->B C->A B->A C->B A->C A->B C->B C->A B->A B->C A->C B->A C->B C->A B->A B->C A->C A->B C->B A->C B->A B->C A->C A->B C->B C->A B->A C->B A->C A->B C->B A->C B->A B->C A->C B->A C->B C->A B->A B->C A->C A->B C->B A->C B->A B->C A->C A->B C->B C->A B->A C->B A->C A->B C->B C->A B->A B->C A->C B->A C->B C->A B->A C->B A->C A->B C->B A->C B->A B->C A->C A->B C->B C->A B->A C->B A->C A->B C->B C->A B->A B->C A->C B->A C->B C->A B->A B->C A->C A->B C->B A->C B->A B->C A->C B->A C->B C->A B->A C->B A->C A->B C->B C->A B->A B->C A->C B->A C->B C->A B->A C->B A->C A->B C->B A->C B->A B->C A->C A->B C->B
+A_black: 9 8 7 6 5
+B_black: 4 3 2 1
+C_black:
+M_pink: B->A B->C A->C A->B
+A_pink: 5 2 1
+B_pink: 6
+C_pink: 7 4 3
+M_black: A->C B->A B->C A->C
+M_yellow: C->A
+M_blue: B->C A->C A->B C->B C->A B->A C->B A->C A->B C->B A->C B->A B->C A->C B->A C->B C->A B->A B->C A->C A->B C->B A->C B->A B->C A->C A->B C->B C->A B->A C->B A->C A->B C->B C->A B->A B->C A->C B->A C->B C->A B->A C->B A->C A->B C->B A->C B->A B->C A->C A->B C->B C->A B->A C->B A->C A->B C->B A->C B->A B->C A->C B->A C->B C->A B->A B->C A->C A->B C->B A->C B->A B->C A->C B->A C->B C->A B->A C->B A->C A->B C->B C->A B->A B->C A->C B->A C->B C->A B->A B->C A->C A->B C->B A->C B->A B->C
+A_azure: 6 5 4
+B_azure: 7 2 1
+C_azure: 8 3
+M_red:
+A_azure: 6 5 4
+B_azure: 7 2 1
+C_azure: 8 3
+M_pink: A->B C->B A->C B->A B->C A->C
+M_black: A->C B->A B->C A->C
+M_blue: B->A C->B C->A B->A B->C A->C A->B C->B A->C B->A B->C A->C A->B C->B C->A B->A C->B A->C A->B C->B C->A B->A B->C A->C B->A
+M_green: C->A B->A B->C
+M_blue: B->A C->B C->A B->A B->C A->C A->B C->B A->C B->A B->C A->C A->B C->B C->A B->A C->B A->C A->B C->B C->A B->A B->C A->C B->A C->B C->A B->A C->B A->C A->B C->B A->C B->A B->C A->C A->B C->B C->A B->A C->B A->C A->B C->B A->C B->A B->C A->C B->A C->B C->A B->A B->C A->C A->B C->B A->C B->A B->C A->C B->A C->B C->A B->A C->B A->C A->B C->B C->A B->A B->C A->C B->A C->B C->A B->A B->C A->C A->B C->B A->C B->A B->C A->C A->B C->B C->A B->A C->B A->C A->B C->B A->C B->A B->C A->C B->A C->B C->A B->A B->C A->C A->B C->B A->C B->A B->C A->C A->B C->B C->A B->A C->B A->C A->B C->B C->A B->A B->C A->C B->A C->B C->A B->A C->B A->C A->B C->B A->C B->A B->C A->C A->B C->B C->A B->A C->B A->C A->B C->B C->A B->A B->C A->C B->A C->B C->A B->A B->C A->C A->B C->B A->C B->A B->C A->C B->A C->B C->A B->A C->B A->C A->B C->B C->A B->A B->C A->C B->A C->B C->A B->A C->B A->C A->B C->B A->C B->A B->C A->C A->B C->B C->A B->A C->B A->C
+M_white: B->A C->A B->C A->B A->C B->C A->B C->A C->B A->B C->A B->C B->A C->A C->B A->B A->C B->C A->B C->A C->B A->B C->A B->C B->A C->A B->C A->B A->C B->C B->A C->A C->B A->B C->A B->C B->A C->A B->C
+M_red:
+M_green: B->C A->C
+M_blue: B->A C->B
+M_yellow:
+A_purple:
+B_purple:
+C_purple: 3 2 1
+M_red:
+M_black:
+A_black:
+B_black:
+C_black: 9 8 7 6 5 4 3 2 1
+M_purple:
+A_black:
+B_black:
+C_black: 9 8 7 6 5 4 3 2 1
+A_pink: 3 2
+B_pink:
+C_pink: 7 6 5 4 1
+M_green:
+M_white: C->A C->B A->B A->C B->C A->B C->A C->B A->B A->C B->C B->A C->A B->C A->B A->C B->C B->A C->A C->B A->B C->A B->C B->A C->A B->C A->B A->C B->C A->B C->A C->B A->B A->C B->C B->A C->A B->C A->B A->C B->C A->B C->A C->B A->B C->A B->C B->A C->A C->B A->B A->C B->C A->B C->A C->B A->B C->A B->C B->A C->A B->C A->B A->C B->C B->A C->A C->B A->B C->A B->C B->A C->A C->B A->B A->C B->C A->B C->A C->B A->B A->C B->C B->A C->A B->C A->B A->C B->C A->B C->A C->B A->B C->A B->C B->A C->A C->B A->B A->C B->C A->B C->A C->B A->B A->C B->C B->A C->A B->C A->B A->C B->C B->A C->A C->B A->B C->A B->C B->A C->A B->C A->B A->C B->C A->B C->A C->B A->B A->C B->C B->A C->A B->C A->B A->C B->C B->A C->A C->B A->B C->A B->C B->A C->A C->B A->B A->C B->C A->B C->A C->B A->B C->A B->C B->A C->A B->C A->B A->C B->C B->A C->A C->B A->B C->A B->C B->A C->A B->C A->B A->C B->C A->B C->A C->B A->B A->C B->C B->A C->A B->C A->B A->C B->C A->B C->A C->B A->B C->A B->C B->A C->A C->B A->B A->C B->C A->B C->A C->B A->B A->C B->C B->A C->A B->C A->B A->C B->C B->A C->A C->B A->B C->A B->C B->A C->A B->C A->B A->C B->C A->B C->A C->B A->B A->C B->C B->A C->A B->C A->B A->C B->C
+M_yellow:
+A_azure:
+B_azure:
+C_azure: 8 7 6 5 4 3 2 1
+A_black:
+B_black:
+C_black: 9 8 7 6 5 4 3 2 1
+M_azure:
+M_black:

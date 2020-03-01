@@ -1,0 +1,58 @@
+CREATEDB Tema2 6 25
+CREATE Entity1 2 3 Key1 String Attribute1 Integer Attribute2 Float
+CREATE Entity2 3 3 Key2 Integer Attribute1 String Attribute2 Float
+CREATE Entity3 3 3 Key3 String Attribute1 String Attribute2 Float
+CREATE Entity4 2 3 Key4 Integer Attribute1 Integer Attribute2 Integer
+CREATE Entity5 2 3 Key5 Integer Attribute1 String Attribute2 Float
+INSERT Entity1 ASG1 10 10.3
+INSERT Entity1 ASG2 20 22.3
+INSERT Entity1 ASG3 30 35.3
+INSERT Entity1 ASG4 40 40.3
+INSERT Entity1 ASG5 50 32.3
+INSERT Entity1 ASG6 60 45.3
+INSERT Entity1 ASG7 70 98.3
+INSERT Entity1 ASG8 10 303.3
+INSERT Entity1 ASG9 10 33.3
+INSERT Entity1 ASG10 10 333.3
+INSERT Entity2 1001 LoremIpsum 11.3
+INSERT Entity2 1002 LoremIpsum23 91.3
+INSERT Entity2 1003 LoremIpsum24 31.3
+INSERT Entity2 1004 LoremIpsum25 41.3
+INSERT Entity2 1005 LoremIpsum26 191.3
+SNAPSHOTDB
+INSERT Entity3 LLL1 Lorem2 10.3
+INSERT Entity3 LLL2 Lorem2 10.3
+INSERT Entity3 LLL3 Lorem2 10.3
+INSERT Entity3 LLL4 Lorem2 10.3
+INSERT Entity3 LLL5 Lorem2 10.3
+INSERT Entity3 LLL6 Lorem2 10.3
+INSERT Entity3 LLL7 Lorem2 10.3
+INSERT Entity3 LLL8 Lorem2 10.3
+INSERT Entity3 LLL9 Lorem2 10.3
+INSERT Entity3 LLL10 Lorem2 10.3
+INSERT Entity4 4111 10 20
+INSERT Entity4 4112 30 20
+INSERT Entity4 4113 10 20
+INSERT Entity4 4114 130 20
+INSERT Entity4 4115 210 20
+INSERT Entity4 4116 120 20
+INSERT Entity5 510 PlaceHolder 100.34
+INSERT Entity5 511 PlaceHolder 100.34
+INSERT Entity5 512 PlaceHolder 100.34
+INSERT Entity5 513 PlaceHolder 100.34
+INSERT Entity4 4117 710 20
+INSERT Entity4 4118 170 20
+INSERT Entity4 4119 86 20
+INSERT Entity4 4110 932 20
+INSERT Entity5 501 PlaceHolder 100.34
+INSERT Entity5 502 PlaceHolder 100.34
+INSERT Entity5 503 PlaceHolder 100.34
+INSERT Entity5 504 PlaceHolder 100.34
+INSERT Entity5 505 PlaceHolder 100.34
+INSERT Entity5 506 PlaceHolder 100.34
+INSERT Entity5 507 PlaceHolder 100.34
+INSERT Entity5 508 PlaceHolder 100.34
+INSERT Entity5 509 PlaceHolder 100.34
+INSERT Entity5 514 PlaceHolder 100.34
+INSERT Entity5 515 PlaceHolder 100.34
+SNAPSHOTDB

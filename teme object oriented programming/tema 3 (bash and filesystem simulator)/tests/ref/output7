@@ -1,0 +1,54 @@
+1
+2
+3
+4
+5
+/:
+/trei /unu
+
+6
+7
+8
+/:
+/trei /unu
+
+/trei:
+
+
+/unu:
+/unu/doi
+
+/unu/doi:
+/unu/doi/atena /unu/doi/roma
+
+9
+10
+11
+/:
+/doi /trei /unu
+
+12
+13
+14
+15
+/:
+/doi /unu
+
+/doi:
+/doi/atena /doi/patru /doi/roma
+
+/doi/patru:
+/doi/patru/movie /doi/patru/trei
+
+/doi/patru/trei:
+
+
+/unu:
+/unu/doi /unu/movie
+
+/unu/doi:
+/unu/doi/atena /unu/doi/patru /unu/doi/roma
+
+/unu/doi/patru:
+
+

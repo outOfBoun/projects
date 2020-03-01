@@ -1,0 +1,100 @@
+pwd
+touch /java
+touch /k
+mkdir dir1
+ls /dir1
+cd dir1
+pwd
+cd e
+ls
+pwd
+touch a
+touch b
+touch a
+mkdir x
+mkdir a
+ls ././././././*
+cd x
+pwd
+ls ..
+ls ../../..
+touch fisier_lung
+ls .
+ls -R /
+rm /dir1/x
+ls -R /
+rm /dir1/fdsa
+mv /dir1/a /
+ls /
+mkdir /copies
+cp /dir1 /copies
+ls -R /
+pwd
+mkdir /folder1
+ls /folder1
+mkdir /folder_doi
+ls
+mkdir e
+touch /fold*/b
+ls -R /
+mkdir /*/OOP
+ls -R /
+rm /*/b
+ls /folder*
+cd ../..
+pwd
+rm */*/b*
+ls -R /
+cp /dir1/x /
+cp dir1/x /
+mkdir /everywhere
+mkdir /*/everywhere
+mkdir /*/*/everywhere
+mkdir /*/*/*/everywhere
+ls -R /
+rm *everywhere
+rm /*/everywhere
+rm /*/*/every*where
+ls /*
+ls -R /
+cp folder1 /
+cp folder1 /dir1
+rm folder1
+ls /dir1/folder*
+cp folder_doi /folder1
+rm folder1/*
+ls folder1/*
+ls /*
+mkdir ROOT
+cd ROOT
+cd X
+pwd
+ls /copies -R
+mv /copies /ROOT
+ls -R /ROOT
+mkdir /ROOT/*/this
+touch /ROOT/*/that
+ls -R ./../ROOT
+rm /folder*oi
+touch */last_attempt
+ls /*
+mkdir fs1
+mkdir fs2
+mkdir fs1/r
+mkdir fs2/r
+mkdir fs3
+mkdir fs1000000000000000000000000000000000000000
+mkdir fs5
+mkdir fs5/r
+touch fs54321
+mkdir fs*/r
+touch fs1*/r/H
+touch fs1*/r/H
+touch fs1*/r/H
+touch fs1*/r/H
+touch fs1*/r/H
+rm /*
+ls -R /
+cd ..
+rm /*
+ls -R /

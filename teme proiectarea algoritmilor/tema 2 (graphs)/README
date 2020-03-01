@@ -1,0 +1,34 @@
+Voicu Alex-Georgian
+
+
+				Tema 2 - PA
+
+
+		p1.cpp
+
+	- Vectorul de distante este sortat crescator impreuna cu nodul corespunzator acelei distante, prin inserarea acestor perechi intr-un priority queue. Astfel, din coada sunt extrase crescator noduri.
+	- Graful construit va fi unul nebalansat, in care noduri de distanta d + 1 vor fi inserate ca vecini ai ultimului nod de distanta d care a fost inserat in graf. 
+	- In cazul in care se face un salt la d + 2 si nu exista un nod de distanta d + 1, programul esueaza intrucat nu se pot face salturi in distante mai mari de + 1.
+
+
+		p2.cpp
+
+	- Aria maxima ce contine celule cu valori avand diferenta maxima k se gaseste plecand din fiecare celula a matricei cu o parcurgere BFS (Alg Lee) cu scopul de a face fill maximal respectand conditia diferentei intre elemente.
+	- Daca din celula initiala plecam deja cu minimul si maximul setate (min = valoare celula start) si (max = min + k), atunci vom avea certitudinea ca vom gasi aria maximala indiferent de bias-ul facut de alegerile algoritmului de fill, deoarece orice arie contine un element minim, iar noi plecand din toate celulele vom ajunge la un moment dat sa efectuam fill din elementul minim al ariei maxime.
+
+
+		p3.cpp
+
+	- Ideea consta in utilizarea unui bellman-ford (greedy) modificat astfel incat algoritmul sa nu blocheze solutii partiale aparent slabe (dinamica).
+	- Bellman-ford-ul implementat cu coada pentru eficientizare realizeaza imbunatariri succesive ale distantelor.
+	- Matricea de distante corespunde fiecarui nod si fiecarei muchii terminale in nodul respectiv.
+	- In acest fel, un nod are un set de distante care depinde de tipurile muchiilor ce intra in el.
+	- Un nod imbunatateste distanta unui vecin pe tipul muchiei ce ii leaga incercand pe rand toate costurile formate cu setul sau de distante.
+	- Costul in nodul final n este luat ca minimul dintre toate distantele tipurilor ce intra in el.
+
+
+		p4.cpp
+
+	- Algoritmul implementat este similar cu cel de la p3.cpp.
+	- Deoarece penalizarile se adauga o singura data e necesar sa retinem pentru caile pana intr-un nod un set de tipuri de muchii apartinand acelei cai.
+	- Intrucat exista doar 7 tipuri, implementarea eficienta vine sub forma operatiilor pe biti si a salvarii setului pe un octet pentru cautari rapide de costuri.

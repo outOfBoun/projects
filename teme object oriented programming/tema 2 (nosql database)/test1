@@ -1,0 +1,11 @@
+CREATEDB Tema2 3 5
+CREATE Student 2 3 NrMatricol Integer Nume String Media Float
+CREATE Profesor 2 3 Id Integer Nume String NumarStudenti Integer
+CREATE Secretar 3 3 Id Integer Nume String Salariu Float
+INSERT Student 123 Popescu 10.0
+INSERT Student 125 Ionel 9.8
+INSERT Profesor 213 Ionesco 100
+INSERT Profesor 214 Brailescu 94
+SNAPSHOTDB
+INSERT Secretar 91 Nastase 3450
+SNAPSHOTDB

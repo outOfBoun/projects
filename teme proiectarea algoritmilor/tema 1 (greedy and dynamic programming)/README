@@ -1,0 +1,41 @@
+Voicu Alex-Georgian
+
+
+				PA - TEMA 1 - GREEDY & DP
+
+
+		## Problema 1
+
+	Metoda folosita este greedy. Dupa o sortare descrescatoare a sirului (deoarece jucatorii pot alege in orice ordine), jucatorii aleg alternativ in aceasta ordine numarul cel mai mare ramas. Avantajul primului jucator va fi rezultatul acestei alternante de adunari si scaderi. (Avantaj pozitiv pentru T si negativ pentru R). Metoda functioneaza deoarece daca un jucator nu ar alege cel mai mare numar posibil la un moment dat, atunci acesta ar fi ales la tura urmatoare de celalalt jucator, scazand avantajul primului.
+
+
+		## Problema 2
+
+	Metoda folosita este programarea dinamica. Se incepe de asemenea cu o sortare descrescatoare pentru a alege prima data cel mai mare numar posibil.
+
+	Matricea a[k][n-k] de avantaj are semnificatia urmatoare: 
+		- prima dimensiune (i) codifica numarul de numere eliminate pana in acel moment;
+		- a doua dimensiune (j) codifica pozitia in sirul final ce va avea lungimea n-k;
+		- dinamic se alege maximul dintre:
+			- avantajul din stanga (+/-) numarul v din sirul initial ce trebuie evaluat;
+			- avantajul de deasupra, sarind astfel peste o valoare v din sirul initial.
+
+	Observatii:
+		- indicele elementul din v ce trebuie verificat este dat suma indicilor matricei a[][], deoarece prima dimensiune indica numarul de elemente sarite, iar cea de-a doua numarul de elemente alese (clar suma lor ne indica elementul ce trebuie evaluat din sirul initial);
+		- pentru a sti daca venind din stanga treuie sa adunam sau sa scadem din avantaj elementul evaluat trebuie sa stim pe tura cui ne aflam: daca indicele j in sirul final (n-k elem) este divizibil cu 2 atunci e tura lui T (avantaj codificat pozitiv), altfel e tura Ritzei (avantaj codificat negativ) (optimizare (j & 1) == 1).
+
+
+		## Problema 3
+
+	Metoda folosita este programarea dinamica. 
+	Aceasta implementare foloseste recursivitate indirecta pentru implementarea formulei si doua matrice de avantaje corespunzatoare celor doi jucatori.
+
+	Matricea de avantaj:
+		- codificarea e pozitiva pentru T si negativa pentru R;
+		- prima dimensiune codifica inceputul unei secvente analizate;
+		- a doua dimensiune codifica sfarsitul unei secvente analizate;
+		- diagonala principala reprezinta cazul de baza si este initializata cu valorile din sir pozitiv pentru T si negativ pentru R;
+
+	Pentru a rezolva problema se apeleaza dp_tz(0, n-1), ce corespunde aflarii avantajului lui T daca aceste decide pe intregul sir citit ce alegere sa faca. La randul ei, functia va apela dp_rz pentru a afla avantajul acesteia pe subsirurile ramase etc.
+
+	Alegerea optima e facuta de fiecare jucator astfel incat acestia sa-si maximizeze avantajul (T va alege mereu maximul, iar R minimul). Astfel, daca se alege de catre un jucator elementul din stanga se interogheaza avantajul celuilalt jucator pe sirul ramas in dreapta si viceversa.

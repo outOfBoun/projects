@@ -1,0 +1,37 @@
+Voicu Alex-Georgian
+
+Captcha
+
+## Task 1
+
+	structura simage abstractizeaza fisierul bmp prin structurile de header si array-ul 2d de elemente de tip pixel ce reprezinta culorile fiecarui pixel din imagine.
+
+	Pentru a schimba culoarea fiecarei cifre parcurgem matricea imaginii dintr-o copie a pozei si modificam corespunzator toti pixelii care nu sunt albi.
+
+## Task 2
+
+	La taskul anterior am realizat si o matrice de codificare (image_map) a imaginii in care caracterul '$' inseamna ca punctul respectiv apartine unei cifre, iar '-' inseamna pixel alb.
+
+	Aceasta codificare ne permite sa identificam pixelii unei cifre, dar avem nevoie de o referinta cu privire la forma cifrelor, astfel :
+
+cifre_header.h contine declararea unui array 3d de caractere in care sunt codificate cifrele de la 0 la 9.
+
+	Metoda folosita acum pentru parsarea matricii codificate foloseste un chenar de dimensiunea cifrei care baleiaza in matrice si incearca sa identifice caracterele din matrice folosind ca referinta cifrele salvate.
+	
+	Matricea de codificare image_map este bordata de '-' (alb) si cifrele salvate in array-ul cifre sunt de asemenea bordate (au dimensiune 7x7, fiind inconjurate de '-' (alb)).
+	
+## Task 3
+
+	La taskul anterior am realizat si o lista ordonata a cifrelor identificate (lista_cifre) cu elemente de tip scifra, care retine culoarea, pozitia si ce cifra este.
+	
+	Acum se citesc cifrele ce trebuie eliminate, iar pentru fiecare dintre ele se parcurge lista si se elimina cifrele prin 'tragerea inapoi a elementelor urmatoare'.
+	
+	Dupa aceea se creeaza imaginea prin parcurgerea listei cu cifrele ramase si desenareaa lor intr-o noua imagine. Pentru desenare (functiaa draw_cif) se foloseste de codificarea salvata in cifre_header.h 
+	
+	
+## Bonus
+
+	Identificam toate punctele izolate care vor avea efect asupra punctelor cifrelor si le salvam intr-o lista. Totodata vom marca intr-o matrice boleana toate aceste puncte izolate cat si punctele albe din imagine, care vor ramane neschimbate.
+	Acum trecem din nou prin toata matricea imaginii si adaugam in matricea de medie a culorii pentru fiecare punct culoare punctelor in raza caruia se afla.
+	La final rescriem punctele din imagine care au fost modificate.
+	

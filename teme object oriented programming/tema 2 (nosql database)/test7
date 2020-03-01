@@ -1,0 +1,28 @@
+CREATEDB Tema2 5 20
+CREATE Apa 4 4 CodProdus Integer Tip String Pret Float Stoc Integer
+CREATE Suc 3 3 CodSuc Integer PretUnitar Float Stoc Integer
+CREATE Vin 3 5 CodVin Integer Culoare String Tip String Pret Float Stoc Integer
+CREATE Bere 3 4 Cod Integer TipAmbalaj String Pret Float Stoc Integer
+INSERT Apa 101 Plata 2.1 1000
+INSERT Apa 102 Minerala 2.7 2000
+INSERT Suc 201 2.7 1000
+INSERT Suc 202 2.8 540
+INSERT Bere 401 Sticla 3.4 2309
+INSERT Vin 301 Alb Sec 20.7 100
+INSERT Bere 402 Doza 2.2 1354
+INSERT Suc 205 10.7 987
+INSERT Vin 302 Rosu Sec 30.5 45
+INSERT Suc 204 9.7 1298
+INSERT Vin 303 Roze Demisec 22.1 23
+INSERT Suc 203 3.7 342
+INSERT Vin 304 Rosu Demisec 35.4 45
+INSERT Vin 305 Alb Dulce 50.1 78
+SNAPSHOTDB
+UPDATE Vin 304 Stoc 40
+GET Vin 304
+UPDATE Suc 202 PretUnitar 3.0
+GET Suc 202
+SNAPSHOTDB
+UPDATE Vin 304 Stoc 35
+GET Vin 304
+SNAPSHOTDB

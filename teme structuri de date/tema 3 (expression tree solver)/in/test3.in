@@ -1,0 +1,13 @@
+3
+ana = 3
+are = 13
+mere = 2
+8
+/ sqrt ana / 3 4
++ - ana are * sqrt mere mere
++ ana / are - mere mere
++ ana - - - * ana are ^ mere 2 + ana mere * ana 0
++ ana - - - * ana are ^ mere 2 + * ana ana * * mere mere mere * are 3
+- + sqrt ana sqrt are * sqrt mere sqrt ana
++ - ana b * - are mere ana
+- + - + 9 * 0 4 15 - + 15 * ana 3 ^ * - are mere 2 2 1

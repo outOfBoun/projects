@@ -1,0 +1,26 @@
+# VOICU Alex-Georgian
+
+										Tema LFA
+
+	Tema implementeaza atat prelucrarea regexurilor de forma TDA cat si parserul de regex creat in ANTLR.
+
+	Functia getDFAfromREGEX(rgx):
+		- face apeluri catre functii care implementeaza transformarile necesare pentru a obtine un DFA dintr-un REGEX.
+
+	Functia getREfromREGEX(rgx):
+		- aplica definitia pentru notatiile speciale din regex pentru a le transforma in notatii echivalente de expresii regulate.
+		- transformarea se executa recursiv pe arborele expresiei initiale.
+
+	Functia re_to_nfa(re):
+		- aplicarea algoritmului lui Thompson.
+		- (implementat deja de mine pentru laboratorul 3 de LFA pe baza scheletului care ne-a fost dat).
+
+	Functia getDFAfromNFA(nfa):
+		- functia auxiliara computeEpsilonClosure(nfa) creeaza un dictionar cu inchiderile epsilon ale fiecarei stari din NFA, prin parcurgerea in latime a grafului pe tranzitii epsilon.
+		- similar cu functia auxiliara, functia principala face o parcurgere in latime a DFA-ului (ce e construit in timp ce e parcurs).
+		- starile DFA-ului ce reprezinta submultimi din starile NFA-ului sunt create prin parcurgerea tranzitiilor pe toate caracterele aflabetului.
+		- dictionarele map_states_to_dfa si map_states_to_nfa au rolul de a stoca maparile intre cele doua automate.
+
+	Clasa RegexBuilderListener:
+	- implementeaza visitor-ul arborelui regex-ului ce trebuie parsat si convertit in TDA.
+	- metoda foloseste o stiva de regex-uri TDA ce se compacteaza prin inglobarea regex-urilor mai mici in unele mai mari pe baza notatiilor regex.
